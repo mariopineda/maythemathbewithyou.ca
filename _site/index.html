@@ -7,14 +7,14 @@
     	<meta name="author" content="">
     	<link rel="icon" href="./favicon.ico">
 	<title>maythemathbewithyou.ca</title>
-   
+
     	<!-- Bootstrap core CSS -->
     	<link href="./index_files/bootstrap.min.css" rel="stylesheet">
 
     	<!-- Custom styles for this template -->
     	<link href="./index_files/sticky-footer-navbar.css" rel="stylesheet">
     	<link href="./index_files/custom.css" rel="stylesheet">
-    
+
     	<style>
             body {font-family: Arial;}
             /* Style the tab */
@@ -90,69 +90,67 @@
           <p class="lead"><h1 id="welcome-to-dr-ps-awesome-classroom">Welcome to Dr. P’s awesome classroom</h1>
 <p>This page is intended for students in my classes during the 2017/18 school year. Here you will find information about assignment deadlines, exam dates and other important class information. During the semester the information on this page is updated on a daily basis. It is your responsibility to stay in touch with announcements, review the course site regularly, and ask for help when you need it.</p>
 </p>
+          <p>
+      <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+        Link with href
+      </a>
+      <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+        Button with data-target
+      </button>
+    </p>
+    <div class="collapse" id="collapseExample">
+      <div class="card card-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+      </div>
+    </div>
 
-          <div class="tab">
-              <button class="tablinks" onclick="openCity(event, 'R10')">R10</button>
-              <button class="tablinks" onclick="openCity(event, 'R2030')">R20/30</button>
-              <button class="tablinks" onclick="openCity(event, 'AdvNet')">Adv Net</button>
-              <button class="tablinks" onclick="openCity(event, 'CS10')">CS10</button>
-              <button class="tablinks" onclick="openCity(event, 'CS20')">CS20</button>
-              <button class="tablinks" onclick="openCity(event, 'CS20')">CS30</button>
-          </div>
-      
-          <div id="R10" class="tabcontent">
-              <h3>R10</h3>
-              ---
----
-Hello World
 
-* [Assignment 1](www.google.ca)
-* [Assignment 2](www.google.ca)
-* Assignment 3
-* Assignment 4
-* Assignment 5
- 
+    <!-- Accordion -->
+    <div class="container">
+      <h2>Units</h2>
+      <p><strong>Note:</strong> The <strong>data-parent</strong> attribute makes sure that all collapsible elements under the specified parent will be closed when one of the collapsible item is shown.</p>
+      <div id="accordion">
+        <div class="card">
+          <div class="card-header">
+            <a class="card-link" data-toggle="collapse" href="#collapseOne">
+              Unit 1
+            </a>
           </div>
+          <div id="collapseOne" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+            Unit 2
+          </a>
+          </div>
+          <div id="collapseTwo" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+              Collapsible Group Item #3
+            </a>
+          </div>
+          <div id="collapseThree" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-          <div id="R2030" class="tabcontent">
-              <h3>R20/30</h3>
-              <p>Assignments...</p> 
-          </div>
 
-          <div id="AdvNet" class="tabcontent">
-              <h3>Adv Net</h3>
-              <ul>
-	          <li>RPi Assignment 1: Hello World</li>
-		      <li>RPi Assignment 2: Flickering LED</li>
-                      <li>RPi Assignment 3: Flashing LEDs</li>
-                      <li>RPi Assignment 4: LED Chaser</li>
-                      <li>RPi Assignment 5: Traffic Light</li>
-                      <li>RPi Assignment 6: Two Traffic Lights</li>
-                      <li>Pi Day Assignment: Choose one of the following projects</li>
-		      <ul>
-	                  <li>Music Box</li>
-			  <li>The Parent Detector</li>
-			  <li>Stop Motion</li>
-			  <li>Reaction Game</li>
-			  <li>Thermin</li>
-		      </ul>
-		  </ul>
-          </div>
-      
-          <div id="CS10" class="tabcontent">
-              <h3>CS10</h3>
-              <p>Assignments...</p>
-          </div>
-      
-          <div id="CS20" class="tabcontent">
-              <h3>CS20</h3>
-              <p>Assignments...</p>
-          </div>
 
-          <div id="CS30" class="tabcontent">
-              <h3>CS30</h3>
-              <p>Assignments...</p>
-          </div>
       </main>
 
     <!-- End page content>
@@ -172,7 +170,7 @@ Hello World
        (function() {
        var quotes = $(".quotes");
        var quoteIndex = -1;
-    
+
        function showNextQuote() {
           ++quoteIndex;
           quotes.eq(quoteIndex % quotes.length)
@@ -182,7 +180,7 @@ Hello World
        }
        showNextQuote();
        })();
-    </script>  
+    </script>
 
       <script>
 function openCity(evt, cityName) {
@@ -199,5 +197,5 @@ function openCity(evt, cityName) {
     evt.currentTarget.className += " active";
 }
 </script>
-      
+
 </body></html>
