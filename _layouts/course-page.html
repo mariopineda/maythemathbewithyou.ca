@@ -13,8 +13,13 @@
         {{content}}
       </p>
 
-      {% for unit in site.data.20-1 %}
-          <p> {{unit.videos}} </p>
+      {% for i in site.data.20-1.videos %}
+          <p> Unit: {{i.unit}} </p>
+          <p> Description: {{i.description}} </p>
+          <p> Pages: {{i.page}} </p>
+          <p> Date: {{i.date}} </p>
+          <p> Type: {{i.type}} </p>
+          <p> URL: {{i.url}} </p>
       {% endfor %}
 
       <p>
