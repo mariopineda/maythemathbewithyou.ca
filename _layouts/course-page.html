@@ -5,12 +5,18 @@
 <body>
   <header>
     {% include navbar.html %}
+</header>
 
     <!-- Begin page content -->
     <main role="main" class="container">
       <p class="lead">
         {{content}}
       </p>
+
+      {% for unit in site.data.20-1 %}
+          <p> {{unit.videos}} </p>
+      {% endfor %}
+
       <p>
         <h1>Unit 1</h1>
         <!-- Accordion -->
