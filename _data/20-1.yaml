@@ -1,25 +1,36 @@
+videos:
 - unit: unit 1 name
-  videos:
-    - description:
-      page:
-      date:
-      type:
-      url:
-    - description:
-      page:
-      date:
-      type:
-      url:
-
+  description: How to do math
+  page: 1
+  date: May 30, 2018
+  type: Instruction
+  url: 
+  
+- unit: unit 1 name
+  description: Where is Waldo?
+  page: 2-5
+  date: May 31, 2018
+  type: Instruction
+  url:
+  
 - unit: unit 2 name
-  videos:
-    - description:
-      page:
-      date:
-      type:
-      url:
-    - description:
-      page:
-      date:
-      type:
-      url:
+  description: Multiplication facts
+  page: 6-10
+  date: June 1, 2018
+  type: Assignment
+  url:
+  
+- unit: unit 2 name
+  description: Addition facts
+  page: 11-12
+  date: June 2, 2018
+  type: Assignment
+  url:
+  
+- unit: unit 3 name
+  description: mental math tricks
+  page: 13-20
+  date: June 30, 2018
+  type: Instruction
+  url:
+  
