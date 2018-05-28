@@ -4,33 +4,33 @@ videos:
   page: 1
   date: May 30, 2018
   type: Instruction
-  url: 
+  url: https://youtu.be/DQidZIcvNwI
   
 - unit: unit 1 name
   description: Where is Waldo?
   page: 2-5
   date: May 31, 2018
   type: Instruction
-  url:
+  url: https://youtu.be/Gut3T6DZEhI
   
 - unit: unit 2 name
   description: Multiplication facts
   page: 6-10
   date: June 1, 2018
   type: Assignment
-  url:
+  url: https://youtu.be/u39ptmxIjrI
   
 - unit: unit 2 name
   description: Addition facts
   page: 11-12
   date: June 2, 2018
   type: Assignment
-  url:
+  url: https://youtu.be/STwZNMbHGSM
   
 - unit: unit 3 name
   description: mental math tricks
   page: 13-20
   date: June 30, 2018
   type: Instruction
-  url:
+  url: https://youtu.be/M4IlASDoitI
   
