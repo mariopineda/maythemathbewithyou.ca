@@ -1,0 +1,25 @@
+- unit: unit 1 name
+  videos:
+    - description:
+      page:
+      date:
+      type:
+      url:
+    - description:
+      page:
+      date:
+      type:
+      url:
+
+- unit: unit 2 name
+  videos:
+    - description:
+      page:
+      date:
+      type:
+      url:
+    - description:
+      page:
+      date:
+      type:
+      url:
