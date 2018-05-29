@@ -5,72 +5,43 @@
 <body>
   <header>
     {% include navbar.html %}
-</header>
+  </header>
 
-    <!-- Begin page content -->
-    <main role="main" class="container">
-      <p class="lead">
-        {{content}}
-      </p>
+  <!-- Begin page content -->
+  <main role="main" class="container">
+    <p class="lead">
+      {{content}}
+    </p>
 
+    <h1>Unit 1</h1>
+    <!-- Accordion -->
+    <div class="accordion" id="accordionExample">
+      {% assign counter = 0 %}
       {% for i in site.data.20-1.videos %}
-          <p> Unit: {{i.unit}} </p>
-          <p> Description: {{i.description}} </p>
-          <p> Pages: {{i.page}} </p>
-          <p> Date: {{i.date}} </p>
-          <p> Type: {{i.type}} </p>
-          <p> URL: {{i.url}} </p>
-      {% endfor %}
+      {% assign counter = counter | plus: 1 %}
+      <div class="card">
+        <div class="card-header" id="heading{{ counter }}">
+          <h5 class="mb-0">
+            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse{{ counter }}" aria-expanded="false" aria-controls="collapse{{ counter }}">
+              {{i.date}}, p.{{i.page}}, {{i.description}} (Unit: {{i.unit}}) 
+              Collapsible Group Item #{{ counter }}
+            </button>
+          </h5>
+        </div>
 
-      <p>
-        <h1>Unit 1</h1>
-        <!-- Accordion -->
-        <div class="container">
-          <h2>Title - Date - p</h2>
-          <p><strong>Note:</strong> The <strong>data-parent</strong> attribute makes sure that all collapsible elements under the specified parent will be closed when one of the collapsible item is shown.</p>
-          <div id="accordion">
-            <div class="card">
-              <div class="card-header">
-                <a class="card-link" data-toggle="collapse" href="#collapseOne">
-                  Title - Date - page [Instructions]
-                </a>
-              </div>
-              <div id="collapseOne" class="collapse" data-parent="#accordion">
-                <div class="card-body">
-                  <iframe width="560" height="315" src="https://www.youtube.com/embed/bNAsNre6Ug4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-header">
-                <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
-                  Title - Date - p
-                </a>
-              </div>
-              <div id="collapseTwo" class="collapse" data-parent="#accordion">
-                <div class="card-body">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-header">
-                <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
-                  Title - Date - page [Assignment]
-                </a>
-              </div>
-              <div id="collapseThree" class="collapse" data-parent="#accordion">
-                <div class="card-body">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                </div>
-              </div>
-            </div>
+        <div id="collapse{{ counter }}" class="collapse" aria-labelledby="heading{{ counter }}" data-parent="#accordionExample">
+          <div class="card-body">
+            Test
           </div>
         </div>
-      </main>
+      </div>
+      {% endfor %}
+    </div>
 
-    {% include footer.html %}
-    {% include scripts.html %}
+  </main>
 
-  </body>
-  </html>
+  {% include footer.html %}
+  {% include scripts.html %}
+
+</body>
+</html>

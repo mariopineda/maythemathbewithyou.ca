@@ -4,14 +4,14 @@ videos:
   page: 1
   date: May 30, 2018
   type: Instruction
-  url: https://www.youtube.com/embed/UrtLdkXPRNQ
+  url: https://youtu.be/DQidZIcvNwI
 
 - unit: unit 1 name
   description: Where is Waldo?
   page: 2-5
   date: May 31, 2018
   type: Instruction
-  url: https://youtu.be/Gut3T6DZEhI
+  url: https://www.youtube.com/embed/r_YjSUxUP6I?rel=0
 
 - unit: unit 2 name
   description: Multiplication facts
