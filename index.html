@@ -2,17 +2,27 @@
 layout: default
 ---
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
-
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ post.excerpt }}
+<div class="row">
+  <div class="col-sm-6">
+    <div class="well">
+    <div class="card">
+      <div class="card-body">
+        <h1 class="card-title">20-1</h1>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="20-1/" class="btn btn-primary">Go to class material...</a>
       </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
+    </div>
+  </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="well">
+    <div class="card">
+      <div class="card-body">
+        <h1 class="card-title">20-2</h1>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="20-2/" class="btn btn-primary">Go class material...</a>
+      </div>
+    </div>
+  </div>
+  </div>
 </div>
