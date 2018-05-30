@@ -27,7 +27,9 @@
 
       <div class="list-group">
         {% for post in site.posts %}
-          <a href="{{ site.baseurl }}{{ post.url }}"  class="list-group-item"><strong>{{ post.date | date: "%a %B %-d" }}, p.{{ post.pages }}</strong> ({{ post.type }}) <i>Topic: {{ post.title }}, Unit: {{ post.unit }} ({{ post.course }})</i></a>
+          {% if post.course == page.title %}
+            <a href="{{ site.baseurl }}{{ post.url }}"  class="list-group-item"><strong>{{ post.date | date: "%a %B %-d" }}, p.{{ post.pages }}</strong> ({{ post.type }}) <i>Topic: {{ post.title }}, Unit: {{ post.unit }} ({{ post.course }})</i></a>
+          {% endif %}
         {% endfor %}
       </div>
     </div>
