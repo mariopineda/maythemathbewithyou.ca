@@ -4,11 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
-
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+This page is intended for students in my math classes. Here you will find information about assignment deadlines, exam dates and other important class information. During the semester the information on this page is updated on a daily basis. It is your responsibility to stay in touch with announcements, review the course site regularly, and  ask for help when you need it.
 
 ### Contact me
 
