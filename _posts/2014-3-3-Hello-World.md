@@ -3,7 +3,7 @@ layout: post
 title: You're up and running!
 date: 2014-03-03
 pages: 1-2
-type: instructions
+type: Class notes
 unit: Linear Functions
 course: 20-1
 video: https://www.youtube.com/embed/OkUkFziR3Cc

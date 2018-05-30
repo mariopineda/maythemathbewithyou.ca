@@ -1,10 +1,10 @@
 ---
 layout: default
-permalink: 20-1/index.html
+permalink: 20-2/index.html
 ---
 
 <div class="list-group">
   {% for post in site.posts %}
-    <h4><a href="{{ site.baseurl }}{{ post.url }}"  class="list-group-item">{{ post.date | date: "%a %B %-d" }}, p.{{ post.pages }} ({{ post.type }})<br> <i>Topic: {{ post.title }}, Unit: {{ post.unit }} </i></a></h4>
+    <a href="{{ site.baseurl }}{{ post.url }}"  class="list-group-item"><strong>{{ post.date | date: "%a %B %-d" }}, p.{{ post.pages }}</strong> ({{ post.type }}) <i>Topic: {{ post.title }}, Unit: {{ post.unit }} </i></a>
   {% endfor %}
 </div>

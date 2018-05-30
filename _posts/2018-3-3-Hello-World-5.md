@@ -3,7 +3,7 @@ layout: post
 title: Test 3
 date:  2017-03-03
 pages: 16
-type: assignment
+type: Problem solving
 unit: Linear Functions
 course: 20-2
 video: https://www.youtube.com/embed/OkUkFziR3Cc

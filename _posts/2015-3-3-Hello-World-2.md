@@ -3,7 +3,7 @@ layout: post
 title: Another test
 date:   2015-03-03
 pages: 2-4
-type: instructions
+type: Class notes
 unit: Linear Functions
 course: 20-1
 video: https://www.youtube.com/embed/OkUkFziR3Cc
