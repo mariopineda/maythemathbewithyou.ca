@@ -5,8 +5,9 @@ date:  2017-03-03
 pages: 16
 type: Problem solving
 unit: Linear Functions
-course: 20-2
+course: 20-1
 video: https://www.youtube.com/embed/OkUkFziR3Cc
+status: notdone
 ---
 
 Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
