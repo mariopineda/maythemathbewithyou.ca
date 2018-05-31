@@ -1,58 +1,20 @@
-<!DOCTYPE html>
-<html>
-  {% include head.html %}
-
-  <body>
-    <div class="wrapper-masthead">
-      <div class="container">
-        <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.baseurl }}/{{ site.avatar }}" /></a>
-
-          <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
-          </div>
-
-          <nav>
-            <a href="{{ site.baseurl }}/">Blog</a>
-            <a href="{{ site.baseurl }}/about">About</a>
-          </nav>
-        </header>
-      </div>
-    </div>
-
-    <div id="main" role="main" class="container">
-      <h2>{{ page.title }}</h2>
-      {{ content }}
-
-      <div class="list-group">
-        {% for post in site.posts %}
-          {% if post.course == page.title %}
-            {% if post.status == 'done' %}
-              <a href="{{ site.baseurl }}{{ post.url }}"  class="list-group-item list-group-item-success flex-column align-items-start">
-            {% elsif post.status == 'hw' %}
-              <a href="{{ site.baseurl }}{{ post.url }}"  class="list-group-item list-group-item-danger flex-column align-items-start">
-            {% elsif post.status == 'notdone' %}
-              <a href="{{ site.baseurl }}{{ post.url }}"  class="list-group-item list-group-item-light flex-column align-items-start">
-            {% else %}
-              <a href="{{ site.baseurl }}{{ post.url }}"  class="list-group-item list-group-item-primary">
-            {% endif %}
-            <strong>p.{{ post.pages }}</strong> {{ post.title }} / {{ post.unit }} ({{ post.type }})</a>
-          {% endif %}
-        {% endfor %}
-      </div>
-    </div>
-
-
-
-    <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer">
-          {% include svg-icons.html %}
-        </footer>
-      </div>
-    </div>
-
-    {% include analytics.html %}
-  </body>
-</html>
+---
+layout: default
+---
+<div class="list-group">
+  {% for post in site.posts %}
+    {% if post.course == page.title %}
+      {% if post.status == 'done' %}
+        <a href="{{ site.baseurl }}{{ post.url }}"  class="list-group-item list-group-item-success flex-column align-items-start">
+      {% elsif post.status == 'hw' %}
+        <a href="{{ site.baseurl }}{{ post.url }}"  class="list-group-item list-group-item-danger flex-column align-items-start">
+      {% elsif post.status == 'notdone' %}
+        <a href="{{ site.baseurl }}{{ post.url }}"  class="list-group-item list-group-item-light flex-column align-items-start">
+      {% else %}
+        <a href="{{ site.baseurl }}{{ post.url }}"  class="list-group-item list-group-item-primary">
+      {% endif %}
+      <strong>p.{{ post.pages }}</strong> {{ post.title }} / {{ post.unit }} ({{ post.type }})</a>
+    {% endif %}
+  {% endfor %}
+  </div>
+</div>
