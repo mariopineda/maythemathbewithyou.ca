@@ -37,7 +37,7 @@
             {% else %}
               <a href="{{ site.baseurl }}{{ post.url }}"  class="list-group-item list-group-item-primary">
             {% endif %}
-            <strong>{{ post.date | date: "%a %B %-d" }}, p.{{ post.pages }}</strong> ({{ post.type }}) <i>Topic: {{ post.title }}, Unit: {{ post.unit }} ({{ post.course }}) -{{post.status}}-</i></a>
+            <strong>p.{{ post.pages }}</strong> {{ post.title }} / {{ post.unit }} ({{ post.type }})</a>
           {% endif %}
         {% endfor %}
       </div>
