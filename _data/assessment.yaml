@@ -1,12 +1,11 @@
-assessment:
 - class: 20-1
   date: TBD
   type: Quiz
-  Unit: Rel & Fun
-  Weight: 50%
+  unit: Rel & Fun
+  weight: 50%
 
 - class: 20-1
   date: TBD
   type: Quiz
-  Unit: Rel & Fun
-  Weight: 50%
+  unit: Rel & Fun
+  weight: 50%

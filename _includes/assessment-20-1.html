@@ -9,27 +9,14 @@
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>TBD</td> <!-- Date -->
-      <td>Quiz</td> <!-- Assessment -->
-      <td>Rel & Fun</td> <!-- Unit -->
-      <td></td> <!-- Weight -->
-    </tr>
-    <tr>
-      <th scope="row">1</th>
-      <td>TBD</td> <!-- Date -->
-      <td>Quiz</td> <!-- Assessment -->
-      <td>Rel & Fun</td> <!-- Unit -->
-      <td></td> <!-- Weight -->
-    </tr>
-    <tr>
-      <th scope="row">1</th>
-      <td>TBD</td> <!-- Date -->
-      <td>Quiz</td> <!-- Assessment -->
-      <td>Rel & Fun</td> <!-- Unit -->
-      <td>10%</td> <!-- Weight -->
-    </tr>
-
+    {% for entry in site.data.assessment %}
+      <tr>
+        <th scope="row">1</th>
+        <td>{{ entry.date }}</td> <!-- Date -->
+        <td>{{ entry.type }}</td> <!-- Assessment -->
+        <td>{{ entry.unit }}</td> <!-- Unit -->
+        <td>{{ entry.weight }}</td> <!-- Weight -->
+      </tr>
+    {% endfor %}
   </tbody>
 </table>
