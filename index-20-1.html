@@ -3,8 +3,21 @@ layout: course
 permalink: 20-1/index.html
 title: 20-1
 ---
-<h3>Course outline</h3>
-...
-
-<h3>Assessements</h3>
-...
+<p>
+  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#button1" aria-expanded="false" aria-controls="button1">
+    Course Outline
+  </button>
+  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#button2" aria-expanded="false" aria-controls="button2">
+    Assessment
+  </button>
+</p>
+<div class="collapse" id="button1">
+  <div class="card card-body">
+    <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.</p>.
+  </div>
+</div>
+<div class="collapse" id="button2">
+  <div class="card card-body">
+    {% include assessment-20-1.html %}
+  </div>
+</div>
