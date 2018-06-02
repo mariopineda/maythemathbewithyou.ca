@@ -1,7 +1,7 @@
-<table class="table">
-  <thead class="thead-light">
+<p>
+<table class="table table-striped">
+  <thead class="thead-dark">
     <tr>
-      <th scope="col">#</th>
       <th scope="col">Date</th>
       <th scope="col">Assessment</th>
       <th scope="col">Unit</th>
@@ -10,13 +10,15 @@
   </thead>
   <tbody>
     {% for entry in site.data.assessment %}
-      <tr>
-        <th scope="row">1</th>
-        <td>{{ entry.date }}</td> <!-- Date -->
-        <td>{{ entry.type }}</td> <!-- Assessment -->
-        <td>{{ entry.unit }}</td> <!-- Unit -->
-        <td>{{ entry.weight }}</td> <!-- Weight -->
-      </tr>
+      {% if entry.class == "20-1" %}
+        <tr>
+          <td>{{ entry.date }}</td> <!-- Date -->
+          <td>{{ entry.type }}</td> <!-- Assessment -->
+          <td>{{ entry.unit }}</td> <!-- Unit -->
+          <td>{{ entry.weight }}</td> <!-- Weight -->
+        </tr>
+      {% endif %}
     {% endfor %}
   </tbody>
 </table>
+</p>
