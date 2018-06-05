@@ -48,18 +48,18 @@
 
     <main role="main">
       <div class="album py-5 bg-light">
-        <p>
-  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#button1" aria-expanded="false" aria-controls="button1">
-    Course Outline
-  </button>
-  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#button2" aria-expanded="false" aria-controls="button2">
-    Assessment
-  </button>
-</p>
-<div class="collapse" id="button1">
-  <div class="card card-body">
-    <p>
-      <h2> Required Materials</h2>
+        <div class="accordion" id="accordionExample">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h5 class="mb-0">
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Course Outline
+        </button>
+      </h5>
+    </div>
+    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div class="card-body">
+        <h2> Required Materials</h2>
 <ul>
   <li>Principles of Mathematics 11 Workbook</li>
   <li>A graphing calculator is required for this course (TI-83/84)</li>
@@ -82,12 +82,21 @@ It is your responsibility to make arrangements with your teacher to complete any
 <h2>Tips for Success</h2>
 Marks are calculated using all assessments, both formal and informal.  Students can have “off” class or test. What you do throughout the whole term will be taken into consideration when your final grade is calculated. This being stated, doing you best daily will allow you to earn a mark worthy of your abilities
 
-    </p>
+      </div>
+    </div>
   </div>
-</div>
-<div class="collapse" id="button2">
-  <div class="card card-body">
-    <p>
+
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Assessment
+        </button>
+      </h5>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+      <div class="card-body">
+        <p>
 <table class="table table-striped">
   <thead class="thead-dark">
     <tr>
@@ -136,6 +145,23 @@ Marks are calculated using all assessments, both formal and informal.  Students 
 </table>
 </p>
 
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Assignments
+        </button>
+      </h5>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+      <div class="card-body">
+        ...
+      </div>
+    </div>
   </div>
 </div>
 
