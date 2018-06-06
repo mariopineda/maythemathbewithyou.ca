@@ -7,6 +7,10 @@ layout: default
 
   <iframe width="854" height="480" src="{{ page.video }}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
+  <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="{{ page.video }}" allowfullscreen></iframe>
+  </div>
+
   <div class="entry">
     {{ content }}
   </div>
@@ -15,4 +19,5 @@ layout: default
     Written on {{ page.date | date: "%B %e, %Y" }}
   </div>
 
+  {% include disqus.html %}
 </article>
