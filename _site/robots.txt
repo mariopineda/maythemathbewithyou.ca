@@ -1,1 +1,1 @@
-Sitemap: http://localhost:4000/maythemathbewithyou.ca/sitemap.xml
+Sitemap: https://mariopineda.github.io/maythemathbewithyou.ca/sitemap.xml
