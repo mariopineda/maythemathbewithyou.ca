@@ -2,7 +2,7 @@
   {% for post in site.posts %}
     {% if post.course == page.title %}
       {% if post.status == 'done' %}
-        <a href="/{{ post.url }}/"  class="list-group-item flex-column align-items-start">
+        <a href="{{ site.baseurl }} /{{ post.url }}"  class="list-group-item flex-column align-items-start">
         <img src="/images/done.png" width=25px>
       {% elsif post.status == 'hw' %}
         <a href="/{{ post.url }}/"  class="list-group-item flex-column align-items-start">
