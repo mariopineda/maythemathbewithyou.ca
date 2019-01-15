@@ -12,10 +12,10 @@
     {% for entry in site.data.assessment %}
       {% if entry.class == "20-2" %}
         <tr>
-          <td>{{ entry.date }}</td> <!-- Date -->
-          <td>{{ entry.type }}</td> <!-- Assessment -->
+          <td>{{ entry.examdate }}</td> <!-- Date -->
           <td>{{ entry.unit }}</td> <!-- Unit -->
           <td>{{ entry.weight }}</td> <!-- Weight -->
+          <td>{{ entry.url }}</td> <!-- Url of unit notes -->
         </tr>
       {% endif %}
     {% endfor %}
