@@ -1,24 +1,24 @@
 - class: 20-2
   examdate: TBD
-  unit: Unit 1: Reasoning
-  weight: 10%
-  url: http://test.com
-
-- class: 20-2
-  examdate: TBD
-  unit: Unit 2: Properties of Angles and Triangles
+  unit: Unit 1 - Reasoning
   weight: 10
   url: http://test.com
 
 - class: 20-2
   examdate: TBD
-  unit: Unit 3: Trigonometry
+  unit: Unit 2 - Properties of Angles and Triangles
   weight: 10
   url: http://test.com
 
 - class: 20-2
   examdate: TBD
-  unit: Unit 4: Proportional Reasoning
+  unit: Unit 3 - Trigonometry
+  weight: 10
+  url: http://test.com
+
+- class: 20-2
+  examdate: TBD
+  unit: Unit 4 - Proportional Reasoning
   weight: 10
   url: http://test.com
 
@@ -30,7 +30,7 @@
 
 - class: 20-2
   examdate: TBD
-  unit: Unit 5: Radicals
+  unit: Unit 5 - Radicals
   weight: 10
   url: http://test.com
 
@@ -42,13 +42,13 @@
 
 - class: 20-2
   examdate: TBD
-  unit: Unit 6: Quadratic Functions
+  unit: Unit 6 - Quadratic Functions
   weight: 10
   url: http://test.com
 
 - class: 20-2
   examdate: TBD
-  unit: Unit 7: Quadratic Equations
+  unit: Unit 7 - Quadratic Equations
   weight: 10
   url: http://test.com
 
@@ -60,7 +60,7 @@
 
 - class: 20-2
   examdate: TBD
-  unit: Unit 8: Statistics
+  unit: Unit 8 - Statistics
   weight: 10
   url: http://test.com
 
@@ -68,4 +68,4 @@
   examdate: TBD
   unit: Final Exam
   weight:
-  url: 
+  url:
