@@ -15,7 +15,7 @@
           <td>{{ entry.examdate }}</td> <!-- Date -->
           <td>{{ entry.unit }}</td> <!-- Unit -->
           <td>{{ entry.weight }}</td> <!-- Weight -->
-          <td>{{ entry.url }}</td> <!-- Url of unit notes -->
+          <td><a href="{{ entry.url }}">{{ entry.unit}} class notes</a></td> <!-- Link to pdf notes -->
         </tr>
       {% endif %}
     {% endfor %}
