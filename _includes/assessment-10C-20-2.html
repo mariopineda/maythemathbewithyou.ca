@@ -5,17 +5,14 @@
       <th scope="col">Exam Date</th>
       <th scope="col">Unit</th>
       <th scope="col">Weight (%)</th>
-      <th scope="col">Class Notes</th>
-    </tr>
   </thead>
   <tbody>
     {% for entry in site.data.assessment %}
       {% if entry.class == "10C-20-2" %}
         <tr>
           <td>{{ entry.examdate }}</td> <!-- Date -->
-          <td>{{ entry.unit }}</td> <!-- Unit -->
+          <td><a href="{{ entry.url }}">{{ entry.unit}}</a></td> <!-- Link to pdf notes -->
           <td>{{ entry.weight }}</td> <!-- Weight -->
-          <td>{{ entry.url }}</td> <!-- Url of unit notes -->
         </tr>
       {% endif %}
     {% endfor %}
