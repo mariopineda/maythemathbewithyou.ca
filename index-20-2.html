@@ -5,15 +5,16 @@ title: 20-2
 ---
 <h1>{{ page.title }}</h1>
 <div class="accordion" id="accordionExample">
+
   <div class="card">
-    <div class="card-header" id="heading1">
+    <div class="card-header" id="expectations">
       <h5 class="mb-0">
-        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#expectations" aria-expanded="true" aria-controls="expectations">
           Expectations
         </button>
       </h5>
     </div>
-    <div id="collapse1" class="collapse" aria-labelledby="heading1" data-parent="#accordionExample">
+    <div id="expectations" class="collapse" aria-labelledby="expectations" data-parent="#accordionExample">
       <div class="card-body">
         {% include expectations.html %}
       </div>
@@ -21,29 +22,14 @@ title: 20-2
   </div>
 
   <div class="card">
-    <div class="card-header" id="heading2">
+    <div class="card-header" id="attendance">
       <h5 class="mb-0">
-        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="true" aria-controls="collapse2">
-          How to be successful
-        </button>
-      </h5>
-    </div>
-    <div id="collapse2" class="collapse" aria-labelledby="heading2" data-parent="#accordionExample">
-      <div class="card-body">
-        {% include success.html %}
-      </div>
-    </div>
-  </div>
-
-  <div class="card">
-    <div class="card-header" id="heading3">
-      <h5 class="mb-0">
-        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="true" aria-controls="collapse3">
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#attendance" aria-expanded="true" aria-controls="attendance">
           Attendance
         </button>
       </h5>
     </div>
-    <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#accordionExample">
+    <div id="attendance" class="collapse" aria-labelledby="attendance" data-parent="#accordionExample">
       <div class="card-body">
         {% include attendance.html %}
       </div>
@@ -51,16 +37,31 @@ title: 20-2
   </div>
 
   <div class="card">
-    <div class="card-header" id="heading4">
+    <div class="card-header" id="materials">
       <h5 class="mb-0">
-        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="true" aria-controls="collapse4">
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#materials" aria-expanded="true" aria-controls="materials">
           Materials
         </button>
       </h5>
     </div>
-    <div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#accordionExample">
+    <div id="materials" class="collapse" aria-labelledby="materials" data-parent="#accordionExample">
       <div class="card-body">
         {% include materials.html %}
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header" id="success">
+      <h5 class="mb-0">
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#success" aria-expanded="true" aria-controls="success">
+          How to be successful
+        </button>
+      </h5>
+    </div>
+    <div id="success" class="collapse" aria-labelledby="success" data-parent="#accordionExample">
+      <div class="card-body">
+        {% include success.html %}
       </div>
     </div>
   </div>
