@@ -6,17 +6,63 @@ title: 10C/20-2
 
 <h1>{{ page.title }}</h1>
 <div class="accordion" id="accordionExample">
+
   <div class="card">
-    <div class="card-header" id="headingOne">
+    <div class="card-header" id="heading1">
       <h5 class="mb-0">
-        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          Course Outline
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+          Expectations
         </button>
       </h5>
     </div>
-    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+    <div id="collapse1" class="collapse" aria-labelledby="heading1" data-parent="#accordionExample">
       <div class="card-body">
-        {% include course-outline.html%}
+        {% include expectations.html %}
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header" id="heading2">
+      <h5 class="mb-0">
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="true" aria-controls="collapse3">
+          Attendance
+        </button>
+      </h5>
+    </div>
+    <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#accordionExample">
+      <div class="card-body">
+        {% include attendance.html %}
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header" id="heading4">
+      <h5 class="mb-0">
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="true" aria-controls="collapse4">
+          Materials
+        </button>
+      </h5>
+    </div>
+    <div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#accordionExample">
+      <div class="card-body">
+        {% include materials.html %}
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header" id="heading2">
+      <h5 class="mb-0">
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="true" aria-controls="collapse2">
+          How to be successful
+        </button>
+      </h5>
+    </div>
+    <div id="collapse2" class="collapse" aria-labelledby="heading2" data-parent="#accordionExample">
+      <div class="card-body">
+        {% include success.html %}
       </div>
     </div>
   </div>
