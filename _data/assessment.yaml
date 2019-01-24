@@ -29,6 +29,12 @@
   url:
 
 - class: 10C-20-2
+  examdate: Tu March 19
+  unit: Unit 5 - Relations & Functions
+  weight: 10
+  url:
+
+- class: 10C-20-2
   examdate: Fri Apr 5
   unit: Unit 6 - Linear Functions
   weight: 10
@@ -42,7 +48,7 @@
 
 - class: 10C-20-2
   examdate: Th Apr 18
-  unit: Final Exam
+  unit: 10C Final Exam
   weight: 10
   url:
 
@@ -102,7 +108,7 @@
 
 - class: 10C-20-2
   examdate: Tu May 18
-  unit: Final Exam
+  unit: 20-2 Final Exam
   weight: 10
   url:
 
