@@ -12,9 +12,9 @@
         <tr>
           <td>{{ entry.examdate }}</td> <!-- Date -->
             {% if entry.url == "NA" %}
-              <td>{{ entry.unit}}</td> <!-- Link to pdf notes -->
+              <td>{{ entry.unit}}</td> <!-- NO link to pdf notes -->
             {% else %}
-              <td><a href="{{ entry.url }}">{{ entry.unit}}</a></td> <!-- Link to pdf notes -->
+              <td><a href="{{ entry.url }}">{{ entry.unit}} <img src="/images/pdf.png"></a></td> <!-- Link to pdf notes -->
             {% endif %}
           <td>{{ entry.weight }}</td> <!-- Weight -->
         </tr>
