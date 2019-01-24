@@ -1,6 +1,30 @@
 - class: 10C-20-2
-  examdate: Fri Feb 15
+  examdate: Th Feb 7
   unit: Unit 1 - Right Trigonometry
+  weight: 10
+  url:
+
+- class: 10C-20-2
+  examdate: Fri Feb 15
+  unit: Unit 2 - Measurement
+  weight: 10
+  url:
+
+- class: 10C-20-2
+  examdate: Mon Feb 25
+  unit: Unit 3 - Numbers & Exponents
+  weight: 10
+  url:
+
+- class: 10C-20-2
+  examdate: Th March 7
+  unit: Unit 4 - Polynomials
+  weight: 10
+  url:
+
+- class: 10C-20-2
+  examdate: Tu March 12
+  unit: Midterm Exam (Units 1-4)
   weight: 10
   url:
 
