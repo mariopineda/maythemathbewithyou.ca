@@ -4,7 +4,6 @@
     <tr>
       <th scope="col">Exam Date</th>
       <th scope="col">Unit</th>
-      <th scope="col">Weight (%)</th>
   </thead>
   <tbody>
     {% for entry in site.data.assessment %}
@@ -16,7 +15,6 @@
           {% else %}
             <td><a href="{{ entry.url }}">{{ entry.unit}}</a></td> <!-- Link to pdf notes -->
           {% endif %}
-          <td>{{ entry.weight }}</td> <!-- Weight -->
         </tr>
       {% endif %}
     {% endfor %}
