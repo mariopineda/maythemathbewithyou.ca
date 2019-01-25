@@ -115,143 +115,143 @@
 - class: 20-2
   examdate: Fri Feb 15
   unit: Unit 1 - Reasoning
-  weight: 10
+  weight: 10%
   url: NA
 
 - class: 20-2
   examdate: Mon March 4
   unit: Unit 2 - Properties of Angles and Triangles
-  weight: 10
+  weight: 10%
   url: NA
 
 - class: 20-2
   examdate: Fri March 15
   unit: Unit 3 - Trigonometry
-  weight: 10
+  weight: 10%
   url: NA
 
 - class: 20-2
   examdate: Wed Apr 4
   unit: Unit 4 - Proportional Reasoning
-  weight: 10
+  weight: 10%
   url: NA
 
 - class: 20-2
   examdate: Mon Apr 8
   unit: Units 1-4 Replacement Exam
-  weight:
+  weight: 10%
   url: NA
 
 - class: 20-2
   examdate: Wed Apr 17
   unit: Unit 5 - Radicals
-  weight: 10
+  weight: 10%
   url: NA
 
 - class: 20-2
   examdate: Wed Apr 24
   unit: Unit 5 Replacement Exam
-  weight:
+  weight: 10%
   url: NA
 
 - class: 20-2
   examdate: Tu May 7
   unit: Unit 6 - Quadratic Functions
-  weight: 10
+  weight: 10%
   url: NA
 
 - class: 20-2
   examdate: Mon May 27
   unit: Unit 7 - Quadratic Equations
-  weight: 10
+  weight: 10%
   url: NA
 
 - class: 20-2
   examdate: Fri June 7
   unit: Unit 8 - Statistics
-  weight: 10
+  weight: 10%
   url: NA
 
 - class: 20-2
   examdate: Tu June 11
   unit: Unit 6-7 Replacement Exam
-  weight:
+  weight: 10%
   url: NA
 
 - class: 20-2
   examdate: Tu June 18
   unit: Final Exam
-  weight: 20
+  weight: 20%
   url: NA
 
 - class: 30-2
   examdate: TBD
   unit: Unit 1 - Polynomial Functions
-  weight: 12.5
+  weight: 12.5%
   url: NA
 
 - class: 30-2
   examdate: TBD
   unit: Unit 2 - Rational Expressions & Equations
-  weight: 12.5
+  weight: 12.5%
   url: NA
 
 - class: 30-2
   examdate: TBD
   unit: Unit 3 - Set Theory
-  weight: 12.5
+  weight: 12.5%
   url: NA
 
 - class: 30-2
   examdate: TBD
   unit: Unit 4 - Exponential Functions
-  weight: 12.5
+  weight: 12.5%
   url: NA
 
 - class: 30-2
   examdate: TBD
   unit: Unit 1-4 Replacement Exam
-  weight:
+  weight: 12.5%
   url: NA
 
 - class: 30-2
   examdate: TBD
   unit: Unit 5 - Logarithimc Functions
-  weight: 12.5
+  weight: 12.5%
   url: NA
 
 - class: 30-2
   examdate: TBD
   unit: Unit 6 - Counting Methods
-  weight: 12.5
+  weight: 12.5%
   url: NA
 
 - class: 30-2
   examdate: TBD
   unit: Unit 7 - Probability
-  weight: 12.5
+  weight: 12.5%
   url: NA
 
 - class: 30-2
   examdate: TBD
   unit: Unit 5-7 Replacement Exam
-  weight:
+  weight: 12.5%
   url: NA
 
 - class: 30-2
   examdate: TBD
   unit: Unit 8 - Sinusoidal Functions
-  weight: 12.5
+  weight: 12.5%
   url: NA
 
 - class: 30-2
   examdate: TBD
   unit: Unit 8 Replacement Exam
-  weight:
+  weight: 12.5%
   url: NA
 
 - class: 30-2
   examdate: TBD
   unit: Final Exam
-  weight: 20
+  weight: 20%
   url: NA
