@@ -1,24 +1,23 @@
 <p>
-<table class="table table-striped">
-  <thead class="thead-dark">
-    <tr>
-      <th scope="col">Exam Date</th>
-      <th scope="col">Unit</th>
-      <th scope="col">Weight (%)</th>
-  </thead>
-  <tbody>
-    {% for entry in site.data.assessment %}
-      {% if entry.class == "20-2" %}
-        <tr>
-          <td>{{ entry.examdate }}</td> <!-- Date -->
+  <table class="table table-striped">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">Exam Date</th>
+        <th scope="col">Unit</th>
+    </thead>
+    <tbody>
+      {% for entry in site.data.assessment %}
+        {% if entry.class == "20-2" %}
+          <tr>
+            <td>{{ entry.examdate }}</td> <!-- Date -->
             {% if entry.url == "NA" %}
               <td>{{ entry.unit}}</td> <!-- NO link to pdf notes -->
             {% else %}
               <td><a href="{{ entry.url }}">{{ entry.unit}}</a></td> <!-- Link to pdf notes -->
             {% endif %}
-        </tr>
-      {% endif %}
-    {% endfor %}
-  </tbody>
-</table>
+          </tr>
+        {% endif %}
+      {% endfor %}
+    </tbody>
+  </table>
 </p>
