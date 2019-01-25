@@ -11,7 +11,11 @@
       {% if entry.class == "10C-20-2" %}
         <tr>
           <td>{{ entry.examdate }}</td> <!-- Date -->
-          <td><a href="{{ entry.url }}">{{ entry.unit}}</a></td> <!-- Link to pdf notes -->
+          {% if entry.url == "NA" %}
+            <td>{{ entry.unit}}</td> <!-- NO link to pdf notes -->
+          {% else %}
+            <td><a href="{{ entry.url }}">{{ entry.unit}}</a></td> <!-- Link to pdf notes -->
+          {% endif %}
           <td>{{ entry.weight }}</td> <!-- Weight -->
         </tr>
       {% endif %}
