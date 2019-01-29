@@ -3,7 +3,6 @@ layout: default
 permalink: 10C-20-2/index.html
 title: 10C/20-2
 ---
-
 <h1>{{ page.title }}</h1>
 {% include alert-10C-20-2.html %}
 
@@ -16,13 +15,13 @@ title: 10C/20-2
         </button>
       </h5>
     </div>
-
     <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
       <div class="card-body">
         {% include course-outline.html %}
       </div>
     </div>
   </div>
+
   <div class="card">
     <div class="card-header" id="headingTwo">
       <h5 class="mb-0">
@@ -37,6 +36,7 @@ title: 10C/20-2
       </div>
     </div>
   </div>
+
   <div class="card">
     <div class="card-header" id="headingThree">
       <h5 class="mb-0">
@@ -50,5 +50,7 @@ title: 10C/20-2
         ...
       </div>
     </div>
-    {% include units-10C-20-2.html %}
   </div>
+</div> <!-- Close accordion component -->
+
+{% include units-10C-20-2.html %}
