@@ -53,13 +53,13 @@
   url: NA
 
 - class: 10C-20-2
-  examdate: Fri Apr 26
+  examdate: Th Apr 25
   unit: Unit 1 - Reasoning, Angles & Triangles
   weight: 11.4%
   url: https://drive.google.com/file/d/1NxEFF88hx2bfzHf4P26khNyu19A1b6vi/view?usp=sharing
 
 - class: 10C-20-2
-  examdate: Wed May 1
+  examdate: Tu April 30
   unit: Unit 2 - Trigonometry
   weight: 11.4%
   url: https://drive.google.com/file/d/11KG36-C_eQ9uskAKvbEZMFCRR5zXsLlT/view?usp=sharing
@@ -99,6 +99,18 @@
   unit: Unit 7 - Statistics
   weight: 11.4%
   url: https://drive.google.com/file/d/1q0VO5sphg5LY3D-EoKyI47EjVYuN6c_G/view?usp=sharing
+
+- class: 10C-20-2
+  examdate: Fri June 14
+  unit: Replacement Exam
+  weight: 11.4%
+  url: 
+  
+ - class: 10C-20-2
+  examdate: Tu June 18
+  unit: Final Exam
+  weight: 11.4%
+  url: 
 
 - class: 30-2 Block 4
   examdate: Tu Feb 19
