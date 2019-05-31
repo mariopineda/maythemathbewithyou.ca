@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Sinusoidal Function Lab
-date:   2015-03-03
+date:   2019-05-31
 pages: 2-4
 type: Class notes
 unit: Linear Functions
