@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Another test
+title: Sinusoidal Function Lab
 date:   2015-03-03
 pages: 2-4
 type: Class notes
