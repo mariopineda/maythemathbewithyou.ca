@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Sea level trend
+title: Sea level trends
 date: 2019-6-25
 pages: 1-2
 type: Word problem
