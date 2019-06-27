@@ -24,11 +24,11 @@ Sea level is rising, in part, because of global climate change causes the meltin
 ## Inline displaystyle equation
 When $$(a \ne 0)$$, there are two solutions to $$(ax^2 + bx + c = 0)$$ and they are $$\frac{\displaystyle{-b \pm \sqrt{b^2-4ac}}}{\displaystyle{2a}}$$
 
-# Inline equation without displaystyle
+## Inline equation without displaystyle
 When $$(a \ne 0)$$, there are two solutions to $$(ax^2 + bx + c = 0)$$ and they are $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
 
-# Non-inline non-displaystyle equation
+## Non-inline non-displaystyle equation
 $$\frac{-b \pm \sqrt{b^2-4ac}}{2a}$$
 
-# Non-inline displaystyle equation
+## Non-inline displaystyle equation
 $$\frac{\displaystyle{-b \pm \sqrt{b^2-4ac}}}{\displaystyle{2a}}$$
