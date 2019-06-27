@@ -1,6 +1,6 @@
 ---
 layout: post
-title: LaTeX test
+title: LaTeX sandbox
 date: 2014-03-03
 pages: 1-2
 type: Class notes
