@@ -7,12 +7,12 @@ type: Skill building
 unit:
 course: 10C
 video:
-sourcetitle: =
-sourceurl: =
+sourcetitle:
+sourceurl:
 status: done
 ---
 Evaluate without a calculator:
-1. $$ (10+2-5) \times (6^2 \div (8-4)) $$
-1. $$ 10+8-6^2 \div (3^2 \times 4) $$
-1. $$ 8 \div (10-9)^3 \times 7 + 4^2 $$
-1. $$ (10x(6+4)) \div (2^3-7)^2 $$
+$$ (10+2-5) \times (6^2 \div (8-4)) $$
+$$ 10+8-6^2 \div (3^2 \times 4) $$
+$$ 8 \div (10-9)^3 \times 7 + 4^2 $$
+$$ (10x(6+4)) \div (2^3-7)^2 $$
