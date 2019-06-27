@@ -20,3 +20,16 @@ $$\frac{-b \pm \sqrt{b^2-4ac}}{2a}$$
 
 ### Non-inline displaystyle equation
 $$\frac{\displaystyle{-b \pm \sqrt{b^2-4ac}}}{\displaystyle{2a}}$$
+
+### Table
+$$
+\begin{center}
+\begin{tabular}{ |c|c|c| }
+ \hline
+ cell1 & cell2 & cell3 \\
+ cell4 & cell5 & cell6 \\
+ cell7 & cell8 & cell9 \\
+ \hline
+\end{tabular}
+\end{center}
+$$
