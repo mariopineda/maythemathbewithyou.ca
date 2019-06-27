@@ -1,7 +1,8 @@
 #
 # This file contains configuration flags to customize your site
 #
-
+future: true
+source: _posts
 # Name of your site (displayed in the header)
 name: maythemathbewithyou.com
 
