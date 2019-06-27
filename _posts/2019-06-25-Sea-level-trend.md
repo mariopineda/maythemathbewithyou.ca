@@ -6,7 +6,7 @@ pages: 1-2
 type: Word problem
 unit: Linear Functions
 course: 10C
-video: https://www.youtube.com/embed/OkUkFziR3Cc
+video:
 status: done
 ---
 # Sea level trend
