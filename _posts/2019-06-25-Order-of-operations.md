@@ -11,7 +11,7 @@ sourcetitle:
 sourceurl:
 status: done
 ---
-Evaluate without a calculator:
+Evaluate without a calculator:<br>
 $$ (10+2-5) \times (6^2 \div (8-4)) $$<br>
 $$ 10+8-6^2 \div (3^2 \times 4) $$<br>
 $$ 8 \div (10-9)^3 \times 7 + 4^2 $$<br>
