@@ -22,8 +22,7 @@ $$\frac{-b \pm \sqrt{b^2-4ac}}{2a}$$
 $$\frac{\displaystyle{-b \pm \sqrt{b^2-4ac}}}{\displaystyle{2a}}$$
 
 ### Table
-$$
-\begin{center}
+$$\begin{center}
 \begin{tabular}{ |c|c|c| }
  \hline
  cell1 & cell2 & cell3 \\
@@ -31,5 +30,12 @@ $$
  cell7 & cell8 & cell9 \\
  \hline
 \end{tabular}
-\end{center}
+\end{center}$$
+
+### Array
+$$
+\begin{array}{cc}
+  a & b \\\\
+  c & c
+\end{array}
 $$
