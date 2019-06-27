@@ -11,4 +11,5 @@ sourcetitle:
 sourceurl:
 status: done
 ---
-![](/images/domainrange.png)
+
+![](http://maythemathbewithyou.com/images/domainrange.png)
