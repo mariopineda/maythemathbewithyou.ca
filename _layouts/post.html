@@ -14,7 +14,7 @@ layout: default
     -->
     <div style="text-align: right">
       <em>
-        {% if page.sourcetitle != "" %}
+        {% if page.sourcetitle != nil %}
           Based on: <a href="{{ page.sourceurl }}">{{ page.sourcetitle }}</a><br>
         {% endif %}
         Page address: {{ site.url }}{{ page.url }}
