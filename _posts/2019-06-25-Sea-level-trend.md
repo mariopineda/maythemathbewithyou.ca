@@ -16,4 +16,4 @@ Sea level is rising, in part, because of global climate change causes the meltin
 1. Determine the sea level change since 1993 in 2000. Answer to the nearest tenth of a mm.
 1. Using you model, predict the sea level change in 2100. Answer to the nearest centimeter.
 
-([Based on NASA Jet Propulsion Laboratory / California Institute of Technology](https://www.jpl.nasa.gov/edu/teach/activity/graphing-sea-level-trends/))
+<div style="text-align: right">([Based on NASA Jet Propulsion Laboratory / California Institute of Technology](https://www.jpl.nasa.gov/edu/teach/activity/graphing-sea-level-trends/))</div>
