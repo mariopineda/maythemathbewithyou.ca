@@ -4,12 +4,14 @@ layout: default
 <div class="card">
   <div class="card-header">
     <h1>{{ page.title }}</h1>
-    <em>{{ site.url }}{{ page.url }}</em>
   </div>
-  {{ content }}
   <div class="card-body">
+    {{ content }}
+   <!-- YouTube Video Embedd Code
     <div class="embed-responsive embed-responsive-16by9">
       <iframe class="embed-responsive-item" src="{{ page.video }}" allowfullscreen></iframe>
     </div>
+    -->
+    <em>{{ site.url }}{{ page.url }}</em>
   </div>
 </div>
