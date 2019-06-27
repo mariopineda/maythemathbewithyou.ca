@@ -21,6 +21,8 @@ Sea level is rising, in part, because of global climate change causes the meltin
 ([Based on NASA Jet Propulsion Laboratory / California Institute of Technology](https://www.jpl.nasa.gov/edu/teach/activity/graphing-sea-level-trends/))
 
 # LaTeX Test
+When $$(a \ne 0)$$, there are two solutions to $$(ax^2 + bx + c = 0)$$ and they are $$\frac{\displaystyle{-b \pm \sqrt{b^2-4ac}}}{\displaystyle{2a}}$$
+
 When $$(a \ne 0)$$, there are two solutions to $$(ax^2 + bx + c = 0)$$ and they are $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
 
 $$\frac{-b \pm \sqrt{b^2-4ac}}{2a}$$
