@@ -12,9 +12,9 @@ sourceurl:
 status: done
 ---
 Graph the following relations and determine the domain and range in interval notation and set notation.
-![](http://maythemathbewithyou.com/tex/domainrange1.png)
-![](http://maythemathbewithyou.com/tex/domainrange2.png)
-![](http://maythemathbewithyou.com/tex/domainrange3.png)
+<img src="http://maythemathbewithyou.com/tex/domainrange1.png" width=100>
+<img src="http://maythemathbewithyou.com/tex/domainrange2.png" width=100>
+<img src="http://maythemathbewithyou.com/tex/domainrange3.png" width=100>
 
 # Answer Key
 ...
