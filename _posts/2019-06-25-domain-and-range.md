@@ -11,10 +11,13 @@ sourcetitle:
 sourceurl:
 status: done
 ---
-Graph the following relations and determine the domain and range in interval notation and set notation.
-<img src="http://maythemathbewithyou.com/tex/domainrange1.png" width=100>
-<img src="http://maythemathbewithyou.com/tex/domainrange2.png" width=100>
-<img src="http://maythemathbewithyou.com/tex/domainrange3.png" width=100>
+<p>Graph the following relations and determine the domain and range in interval notation and set notation.</p>
 
-# Answer Key
+<p>
+<img src="http://maythemathbewithyou.com/tex/domainrange1.png" width=300>
+<img src="http://maythemathbewithyou.com/tex/domainrange2.png" width=300>
+<img src="http://maythemathbewithyou.com/tex/domainrange3.png" width=300>
+</p>
+
+<h1>Solution</h1>
 ...
