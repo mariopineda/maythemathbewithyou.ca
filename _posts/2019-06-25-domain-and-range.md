@@ -13,6 +13,8 @@ status: done
 ---
 Graph the following relations and determine the domain and range in interval notation and set notation.
 ![](http://maythemathbewithyou.com/latex/domainrange1.png)
+![](http://maythemathbewithyou.com/latex/domainrange2.png)
+![](http://maythemathbewithyou.com/latex/domainrange3.png)
 
 # Answer Key
 ...
