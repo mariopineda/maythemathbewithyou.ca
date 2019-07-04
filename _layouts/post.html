@@ -16,17 +16,22 @@ layout: default
       <iframe class="embed-responsive-item" src="{{ page.video }}" allowfullscreen></iframe>
     </div>
     -->
-    {% if page.qrcode != nil %}
-      <img src="{{ page.qrcode }}">
-    {% endif %}  
-    <div style="text-align: right">
-      <em>
-        {% if page.sourcetitle != nil %}
-          Based on: <a href="{{ page.sourceurl }}">{{ page.sourcetitle }}</a><br>
-        {% endif %}
-        Page address: {{ site.url }}{{ page.url }}</br>
-        Class: {{page.course}}, Unit: {{page.unit}}
-      </em>
+  <div class="row">
+    <div class="col-sm-8">
+      <div style="text-align: right">
+        <em>
+          {% if page.sourcetitle != nil %}
+            Based on: <a href="{{ page.sourceurl }}">{{ page.sourcetitle }}</a><br>
+          {% endif %}
+          Page address: {{ site.url }}{{ page.url }}</br>
+          Class: {{page.course}}, Unit: {{page.unit}}
+        </em>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      {% if page.qrcode != nil %}
+        <img src="{{ page.qrcode }}">
+      {% endif %}
     </div>
   </div>
 </div>
