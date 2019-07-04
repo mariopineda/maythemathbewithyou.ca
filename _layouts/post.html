@@ -26,13 +26,15 @@ layout: default
     </div>
     <div class="col-sm-10">
       <div style="text-align: right">
-        <em class="align-text-bottom">
+        <span class="align-text-bottom">
+        <em>
           {% if page.sourcetitle != nil %}
             Based on: <a href="{{ page.sourceurl }}">{{ page.sourcetitle }}</a><br>
           {% endif %}
           Page address: {{ site.url }}{{ page.url }}</br>
           Class: {{page.course}}, Unit: {{page.unit}}
         </em>
+        </span>
       </div>
     </div>
   </div>
