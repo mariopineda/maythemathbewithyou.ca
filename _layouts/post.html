@@ -28,11 +28,11 @@ layout: default
       <div style="text-align: right">
         <span class="align-text-bottom">
         <em>
+          Page address: {{ site.url }}{{ page.url }}<br>
+          Class: {{page.course}}, Unit: {{page.unit}}<br>
           {% if page.sourcetitle != nil %}
-            Based on: <a href="{{ page.sourceurl }}">{{ page.sourcetitle }}</a><br>
+            Based on: <a href="{{ page.sourceurl }}">{{ page.sourcetitle }}</a>
           {% endif %}
-          Page address: {{ site.url }}{{ page.url }}</br>
-          Class: {{page.course}}, Unit: {{page.unit}}
         </em>
         </span>
       </div>
