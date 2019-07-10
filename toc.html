@@ -28,9 +28,9 @@ After!
       <div class="card-body">
         <ul class="list-group list-group-flush">
           {% for post in site.posts %}
-            {% if post.course == "10C" and post.unit == "Prereqs" %}
-              <li class="list-group-item"><a href="{{ post.url }}">{{ post.title }}</a> (Unit: {{post.unit}})</li>
-            {% endif %}
+          {% if post.course == "10C" and post.unit == "Prereqs" %}
+          <li class="list-group-item"><a href="{{ post.url }}">{{ post.title }}</a> (Unit: {{post.unit}})</li>
+          {% endif %}
           {% endfor %}
         </ul>
       </div>
