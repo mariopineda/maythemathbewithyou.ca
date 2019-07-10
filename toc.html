@@ -12,15 +12,29 @@ After!
 <p>Material aligned to <a href="http://maythemathbewithyou.com/resources/math10to12.pdf">Alberta Education high school program of study in mathematics</a>. Material is provided as is... Do you have comments, feedback, suggestions or find find errors, use the following form.</p>
 
 <h1>Math 10C</h1>
-<div class="card">
-  <h2>Pre-requisites</h2>
-  <ul class="list-group list-group-flush">
-    {% for post in site.posts %}
-      {% if post.course == "10C" & post.unit == "Prereqs" %}
-        <li class="list-group-item"><a href="{{ post.url }}">{{ post.title }}</a> (Unit: {{post.unit}})</li>
-      {% endif %}
-    {% endfor %}
-  </ul>
+
+<div class="accordion" id="accordionExample">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h5 class="mb-0">
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+          <h2>Prerequisites</h2>
+        </button>
+      </h5>
+    </div>
+    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div class="card-body">
+        <ul class="list-group list-group-flush">
+          {% for post in site.posts %}
+            {% if post.course == "10C" & post.unit == "Prereqs" %}
+              <li class="list-group-item"><a href="{{ post.url }}">{{ post.title }}</a> (Unit: {{post.unit}})</li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
 </div>
+
 
 <!-- Free high school level math practice problem library. Free as in $0, princeless and as in freedom. -->
