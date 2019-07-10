@@ -12,19 +12,11 @@ After!
 <p>Material aligned to Alberta Education high school program of study in mathematics. Material is provided as is... Do you have comments, feedback, suggestions or find find errors, use the following form.</p>
 
 <h1>Math 10C</h1>
-<h2>Pre-Requisites</h2>
-<h2>Relations & Functions</h2>
-<h2>Real Numbers, Radicals and Exponents</h2>
-<h2>Polynomials</h2>
-<h2>Linear Functions</h2>
-<h2>Systems of Equations</h2>
-<h2>Measurement</h2>
-<h2>Trigonometry</h2>
-
 <div class="card">
+  <h2>Pre-requisites</h2>
   <ul class="list-group list-group-flush">
     {% for post in site.posts %}
-      {% if post.course == "10C" %}
+      {% if post.course == "10C" & post.unit == "Prereqs" %}
         <li class="list-group-item"><a href="{{ post.url }}">{{ post.title }}</a> (Unit: {{post.unit}})</li>
       {% endif %}
     {% endfor %}
