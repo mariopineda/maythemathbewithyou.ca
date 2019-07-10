@@ -15,8 +15,8 @@ After!
 <div class="card">
   <ul class="list-group list-group-flush">
     {% for post in site.posts %}
-      {% if page.class == "10C" %}
-        <li class="list-group-item"><a href="{{ post.url }}">{{ post.title }}</a> (Unit: {{post.unit}})</li>      
+      {% if page.course == "10C" %}
+        <li class="list-group-item"><a href="{{ post.url }}">{{ post.title }}</a> (Unit: {{post.unit}})</li>
       {% endif %}
     {% endfor %}
   </ul>
