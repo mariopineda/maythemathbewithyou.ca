@@ -55,7 +55,7 @@ After!
       <div class="card-body">
         <!-- List toc -->
         <ul class="list-group list-group-flush">
-          {% for post in site.posts %}
+          {% for post in site.posts reversed %}
           {% if post.course == "10C" and post.unit == "Relations & Functions" %}
           <li class="list-group-item"><a href="{{ post.url }}">{{ post.title }}</a> (Unit: {{post.unit}})</li>
           {% endif %}
@@ -80,7 +80,7 @@ After!
       <div class="card-body">
         <!-- List toc -->
         <ul class="list-group list-group-flush">
-          {% for post in site.posts %}
+          {% for post in site.posts reversed %}
           {% if post.course == "10C" and post.unit == "Real Numbers, Radicals and Exponents" %}
           <li class="list-group-item"><a href="{{ post.url }}">{{ post.title }}</a> (Unit: {{post.unit}})</li>
           {% endif %}
@@ -105,7 +105,7 @@ After!
       <div class="card-body">
         <!-- List toc -->
         <ul class="list-group list-group-flush">
-          {% for post in site.posts %}
+          {% for post in site.posts reversed %}
           {% if post.course == "10C" and post.unit == "Polynomials" %}
           <li class="list-group-item"><a href="{{ post.url }}">{{ post.title }}</a> (Unit: {{post.unit}})</li>
           {% endif %}
