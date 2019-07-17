@@ -7,7 +7,7 @@ type: Class notes
 unit: Linear Functions
 course: 20-1
 video:
-status: done
+status: private
 ---
 ### Inline displaystyle equation
 When $$(a \ne 0)$$, there are two solutions to $$(ax^2 + bx + c = 0)$$ and they are $$\frac{\displaystyle{-b \pm \sqrt{b^2-4ac}}}{\displaystyle{2a}}$$

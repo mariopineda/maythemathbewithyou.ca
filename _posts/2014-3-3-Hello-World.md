@@ -7,7 +7,7 @@ type: Class notes
 unit: Linear Functions
 course: 20-1
 video: https://www.youtube.com/embed/OkUkFziR3Cc
-status: done
+status: private
 ---
 <p>
   When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are

@@ -9,7 +9,7 @@ course: 10C
 video:
 sourcetitle: NASA Jet Propulsion Laboratory / California Institute of Technology
 sourceurl: https://www.jpl.nasa.gov/edu/teach/activity/graphing-sea-level-trends/
-status: done
+status: private
 ---
 Sea level is rising, in part, because of global climate change causes the melting glaciers on land which are adding more water to Earth’s oceans. Glaciers – large sheets of ice and snow – exist on land all year long. They are found in the mountains of every continent except Australia. Greenland and Antarctica contain giant ice sheets that are also considered glaciers. As temperatures rise, glaciers melt faster than they accumulate new snow. As these ice sheets and glaciers melt, the water eventually runs into the ocean, causing sea level to rise. Since the beginning of the 20th century sea levels have risen about 20 cm and the ocean is projected to rise as much as 1 m or more by the end of this century. According to satellite sea level observations the global sea level has risen by 91.3 mm since 1993.
 

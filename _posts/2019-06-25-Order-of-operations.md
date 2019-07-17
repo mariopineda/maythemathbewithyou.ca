@@ -9,7 +9,7 @@ course: 10C
 video:
 sourcetitle:
 sourceurl:
-status: done
+status: public
 ---
 <p>Evaluate without a calculator:</p>
 $$ (10+2-5) \times (6^2 \div (8-4)) $$<br>

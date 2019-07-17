@@ -7,5 +7,5 @@ type: Problem solving
 unit: Linear Functions
 course: 20-1
 video: https://www.youtube.com/embed/OkUkFziR3Cc
-status: hw
+status: private
 ---
