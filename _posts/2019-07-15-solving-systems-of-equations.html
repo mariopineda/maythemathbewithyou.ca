@@ -17,8 +17,8 @@ status: private
   <li>Solve the following system of equation by substitution
     $$
     \begin{array}{rcr}
-    x+3y & = & 9 {\large \textcircled{\small 1}}  \\
-    2x-y & = & 4 {\large \textcircled{\small 2}} 
+    x+3y & = & 9  \\
+    2x-y & = & 4
     \end{array}
     $$
   </li>
@@ -46,33 +46,51 @@ status: private
       <div class="card-body">
         <!--- Start solution --->
         <h3>A.</h3>
-        <p>Rewrite the system in slope y-intercept form.
+          <ol>
+            <li>Express $x+3y=9$ in terms of $x$ as $x=9-3y$</li>
+            <li>Substitute the expression from step 1 into $2x-y=4$ and obtain $2(9-3x)-y=4$.</li>
+            <li>Solve the single variable equation:
+                $$
+                \begin{array}{rcl}
+                  2(9-3y)-y & = & 4 \\
+                    18-6y-y & = & 4 \\
+                      18-7y & = & 4 \\
+                        -7y & = & 4-18 \\
+                        -7y & = & -14 \\
+                          y & = & \frac{-14}{-7} \\
+                          y & = & 2
+                \end{array}
+                $$
+          </li>
+          <li>Substitute the value from step 3 ($y=2$) into one of the original equations and saolve for the second variable:
+             $$
+             \begin{array}{rcl}
+               2x-y & = & 4 \\
+               2x-4 & = & 4 \\
+                 2x & = & 6 \\
+                  x & = & 3
+             \end{array}
+             $$
+          The solution is $(2,3)$
+          </li>
+          <li>Verify the solution:
           $$
           \begin{array}{rcl}
-          y & = & -x+5 \\
-          y & = & 3x-3
-          \end{array}
-          $$
-          Graph the two equations and visually determine the coordinates of the point of intersection.
-        </p>
-          <img src="http://maythemathbewithyou.com/tex/solvingsystemsofeqsgraphically1.png" width="75%">
-          <p>
-
-          The solution to this system is $(2,3)$. Verify by substituting solution into the original system and evaluate LHS and RHS.
-          $$
-          \begin{array}{rcl}
-          x+y & = & 5 \\
-          2+3 & = & 5 \\
-          5   & = & 5 \\
-          \mbox{LHS} & = & \mbox{RHS} \\
+                  x+3y & = & 9 \\
+          3+3 \times 2 & = & 9 \\
+                 3+6   & = & 9 \\
+                     9 & = & 9\\
+            \mbox{LHS} & = & \mbox{RHS} \\
           & & \\
-          3x-y & = & 3 \\
-          3 \times 2 - 3 & = & 3 \\
-          3   & = & 3 \\
-          \mbox{LHS} & = & \mbox{RHS}
+                    2x-y & = & 4 \\
+          2 \times 3 - 2 & = & 4 \\
+                 6 - 2   & = & 4 \\
+                       4 & = & 4 \\
+              \mbox{LHS} & = & \mbox{RHS}
           \end{array}
           $$
-        </p>
+          </li>
+        </ol>
 
         <h3>B.</h3>
         <p>Rewrite the system in slope y-intercept form.
