@@ -20,7 +20,14 @@ After!
       <h5 class="card-header">Prerequisites</h5>
       <div class="card-body">
         <p class="card-text">Junior Hight (Grade 6-9) review problems for high school mathematics.</p>
-        {% include postlisting.html topic="Prereqs" %}
+        <div class="list-group">
+          {% for post in site.posts %}
+          {% if post.unit == "Prereqs" and post.status == "public" %}
+          <a href="{{ post.url }}" class="list-group-item list-group-item-action">{{ post.title }} (Grade 10, {{ post.type }})</a>
+          {% endif %}
+          {% endfor %}
+        </div>
+
       </div>
     </div>
   </div>
