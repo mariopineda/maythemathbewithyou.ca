@@ -18,45 +18,27 @@ After!
 <div class="row">
   <!-- Left column -->
   <div class="col-sm-6">
-    <div class="card" style="width: 18rem;">
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="..." alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">Cras justo odio</li>
-          <li class="list-group-item">Dapibus ac facilisis in</li>
-          <li class="list-group-item">Vestibulum at eros</li>
-        </ul>
-        <div class="card-body">
-          <a href="#" class="card-link">Card link</a>
-          <a href="#" class="card-link">Another link</a>
-        </div>
-      </div>
+    <div class="list-group">
+      <a href="#" class="list-group-item list-group-item-action">Pre-requisites</a>
+      <a href="#" class="list-group-item list-group-item-action">Relations and Functions</a>
+      <a href="#" class="list-group-item list-group-item-action">Real Numbers</a>
+      <a href="#" class="list-group-item list-group-item-action">Powers</a>
+      <a href="#" class="list-group-item list-group-item-action disabled">Radicals</a>
     </div>
   </div>
+  
   <!-- Right column -->
   <div class="col-sm-6">
-    <div class="card" style="width: 18rem;">
-      <img class="card-img-top" src="..." alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      </div>
-      <ul class="list-group list-group-flush">
-        <li class="list-group-item">Cras justo odio</li>
-        <li class="list-group-item">Dapibus ac facilisis in</li>
-        <li class="list-group-item">Vestibulum at eros</li>
-      </ul>
-      <div class="card-body">
-        <a href="#" class="card-link">Card link</a>
-        <a href="#" class="card-link">Another link</a>
-      </div>
+    <div class="list-group">
+      <a href="#" class="list-group-item list-group-item-action">
+        Cras justo odio
+      </a>
+      <a href="#" class="list-group-item list-group-item-action">Polynomials</a>
+      <a href="#" class="list-group-item list-group-item-action">Linear Functions</a>
+      <a href="#" class="list-group-item list-group-item-action">Systems of Equations</a>
+      <a href="#" class="list-group-item list-group-item-action disabled">Right Triangle Trigonometry</a>
     </div>
   </div>
-</div>
 </div>
 
 <div id="accordion">
@@ -83,181 +65,181 @@ After!
         <!-- End list toc -->
       </div>
     </div>
-    </div
-    <!-- End accordion level -->
+  </div
+  <!-- End accordion level -->
 
-    <!-- Start accordion level -->
-    <div class="card">
-      <div class="card-header" id="headingTwo">
-        <h5 class="mb-0">
-          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-            Relations and Functions
-          </button>
-        </h5>
-      </div>
-      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-        <div class="card-body">
-          <!-- List toc -->
-          <ul class="list-group list-group-flush">
-            {% for post in site.posts reversed %}
-            {% if post.course == "10C" and post.unit == "Relations & Functions" and post.status == "public" %}
-            <li class="list-group-item"><a href="{{ post.url }}">{{ post.title }}</a></li>
-            {% endif %}
-            {% endfor %}
-          </ul>
-          <!-- End list toc -->
-        </div>
+  <!-- Start accordion level -->
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Relations and Functions
+        </button>
+      </h5>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+      <div class="card-body">
+        <!-- List toc -->
+        <ul class="list-group list-group-flush">
+          {% for post in site.posts reversed %}
+          {% if post.course == "10C" and post.unit == "Relations & Functions" and post.status == "public" %}
+          <li class="list-group-item"><a href="{{ post.url }}">{{ post.title }}</a></li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+        <!-- End list toc -->
       </div>
     </div>
-    <!-- End accordion level -->
-
-    <!-- Start accordion level -->
-    <div class="card">
-      <div class="card-header" id="headingThree">
-        <h5 class="mb-0">
-          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-            Real Numbers, Radicals & Exponents
-          </button>
-        </h5>
-      </div>
-      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-        <div class="card-body">
-          <!-- List toc -->
-          <ul class="list-group list-group-flush">
-            {% for post in site.posts reversed %}
-            {% if post.course == "10C" and post.unit == "Real Numbers, Radicals and Exponents" and post.status == "public" %}
-            <li class="list-group-item"><a href="{{ post.url }}">{{ post.title }}</a></li>
-            {% endif %}
-            {% endfor %}
-          </ul>
-          <!-- End list toc -->
-        </div>
-      </div>
-    </div>
-    <!-- End accordion level -->
-
-    <!-- Start accordion level -->
-    <div class="card">
-      <div class="card-header" id="headingFour">
-        <h5 class="mb-0">
-          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-            Polynomials
-          </button>
-        </h5>
-      </div>
-      <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
-        <div class="card-body">
-          <!-- List toc -->
-          <ul class="list-group list-group-flush">
-            {% for post in site.posts reversed %}
-            {% if post.course == "10C" and post.unit == "Polynomials"and post.status == "public" %}
-            <li class="list-group-item"><a href="{{ post.url }}">{{ post.title }}</a></li>
-            {% endif %}
-            {% endfor %}
-          </ul>
-          <!-- End list toc -->
-        </div>
-      </div>
-    </div>
-    <!-- End accordion level -->
-
-    <!-- Start accordion level -->
-    <div class="card">
-      <div class="card-header" id="headingFive">
-        <h5 class="mb-0">
-          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-            Linear Functions
-          </button>
-        </h5>
-      </div>
-      <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
-        <div class="card-body">
-          <!-- List toc -->
-          <ul class="list-group list-group-flush">
-            {% for post in site.posts reversed %}
-            {% if post.course == "10C" and post.unit == "Linear Functions" and post.status == "public" %}
-            <li class="list-group-item"><a href="{{ post.url }}">{{ post.title }}</a></li>
-            {% endif %}
-            {% endfor %}
-          </ul>
-          <!-- End list toc -->
-        </div>
-      </div>
-    </div>
-    <!-- End accordion level -->
-
-    <!-- Start accordion level -->
-    <div class="card">
-      <div class="card-header" id="headingSix">
-        <h5 class="mb-0">
-          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-            Systems of Equations
-          </button>
-        </h5>
-      </div>
-      <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
-        <div class="card-body">
-          <!-- List toc -->
-          <ul class="list-group list-group-flush">
-            {% for post in site.posts reversed %}
-            {% if post.course == "10C" and post.unit == "Systems of Equations" and post.status == "public" %}
-            <li class="list-group-item"><a href="{{ post.url }}">{{ post.title }}</a></li>
-            {% endif %}
-            {% endfor %}
-          </ul>
-          <!-- End list toc -->
-        </div>
-      </div>
-    </div>
-    <!-- End accordion level -->
-
-    <!-- Start accordion level -->
-    <div class="card">
-      <div class="card-header" id="headingSeven">
-        <h5 class="mb-0">
-          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-            Measurement
-          </button>
-        </h5>
-      </div>
-      <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
-        <div class="card-body">
-          <!-- List toc -->
-          <ul class="list-group list-group-flush">
-            {% for post in site.posts reversed %}
-            {% if post.course == "10C" and post.unit == "Measurement" and post.status == "public" %}
-            <li class="list-group-item"><a href="{{ post.url }}">{{ post.title }}</a></li>
-            {% endif %}
-            {% endfor %}
-          </ul>
-          <!-- End list toc -->
-        </div>
-      </div>
-    </div>
-    <!-- End accordion level -->
-
-    <!-- Start accordion level -->
-    <div class="card">
-      <div class="card-header" id="headingEight">
-        <h5 class="mb-0">
-          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-            Trigonometry
-          </button>
-        </h5>
-      </div>
-      <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordion">
-        <div class="card-body">
-          <!-- List toc -->
-          <ul class="list-group list-group-flush">
-            {% for post in site.posts reversed %}
-            {% if post.course == "10C" and post.unit == "Trigonometry" and post.status == "public" %}
-            <li class="list-group-item"><a href="{{ post.url }}">{{ post.title }}</a></li>
-            {% endif %}
-            {% endfor %}
-          </ul>
-          <!-- End list toc -->
-        </div>
-      </div>
-    </div>
-    <!-- End accordion level -->
   </div>
+  <!-- End accordion level -->
+
+  <!-- Start accordion level -->
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Real Numbers, Radicals & Exponents
+        </button>
+      </h5>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+      <div class="card-body">
+        <!-- List toc -->
+        <ul class="list-group list-group-flush">
+          {% for post in site.posts reversed %}
+          {% if post.course == "10C" and post.unit == "Real Numbers, Radicals and Exponents" and post.status == "public" %}
+          <li class="list-group-item"><a href="{{ post.url }}">{{ post.title }}</a></li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+        <!-- End list toc -->
+      </div>
+    </div>
+  </div>
+  <!-- End accordion level -->
+
+  <!-- Start accordion level -->
+  <div class="card">
+    <div class="card-header" id="headingFour">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+          Polynomials
+        </button>
+      </h5>
+    </div>
+    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+      <div class="card-body">
+        <!-- List toc -->
+        <ul class="list-group list-group-flush">
+          {% for post in site.posts reversed %}
+          {% if post.course == "10C" and post.unit == "Polynomials"and post.status == "public" %}
+          <li class="list-group-item"><a href="{{ post.url }}">{{ post.title }}</a></li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+        <!-- End list toc -->
+      </div>
+    </div>
+  </div>
+  <!-- End accordion level -->
+
+  <!-- Start accordion level -->
+  <div class="card">
+    <div class="card-header" id="headingFive">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+          Linear Functions
+        </button>
+      </h5>
+    </div>
+    <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+      <div class="card-body">
+        <!-- List toc -->
+        <ul class="list-group list-group-flush">
+          {% for post in site.posts reversed %}
+          {% if post.course == "10C" and post.unit == "Linear Functions" and post.status == "public" %}
+          <li class="list-group-item"><a href="{{ post.url }}">{{ post.title }}</a></li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+        <!-- End list toc -->
+      </div>
+    </div>
+  </div>
+  <!-- End accordion level -->
+
+  <!-- Start accordion level -->
+  <div class="card">
+    <div class="card-header" id="headingSix">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+          Systems of Equations
+        </button>
+      </h5>
+    </div>
+    <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+      <div class="card-body">
+        <!-- List toc -->
+        <ul class="list-group list-group-flush">
+          {% for post in site.posts reversed %}
+          {% if post.course == "10C" and post.unit == "Systems of Equations" and post.status == "public" %}
+          <li class="list-group-item"><a href="{{ post.url }}">{{ post.title }}</a></li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+        <!-- End list toc -->
+      </div>
+    </div>
+  </div>
+  <!-- End accordion level -->
+
+  <!-- Start accordion level -->
+  <div class="card">
+    <div class="card-header" id="headingSeven">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+          Measurement
+        </button>
+      </h5>
+    </div>
+    <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
+      <div class="card-body">
+        <!-- List toc -->
+        <ul class="list-group list-group-flush">
+          {% for post in site.posts reversed %}
+          {% if post.course == "10C" and post.unit == "Measurement" and post.status == "public" %}
+          <li class="list-group-item"><a href="{{ post.url }}">{{ post.title }}</a></li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+        <!-- End list toc -->
+      </div>
+    </div>
+  </div>
+  <!-- End accordion level -->
+
+  <!-- Start accordion level -->
+  <div class="card">
+    <div class="card-header" id="headingEight">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+          Trigonometry
+        </button>
+      </h5>
+    </div>
+    <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordion">
+      <div class="card-body">
+        <!-- List toc -->
+        <ul class="list-group list-group-flush">
+          {% for post in site.posts reversed %}
+          {% if post.course == "10C" and post.unit == "Trigonometry" and post.status == "public" %}
+          <li class="list-group-item"><a href="{{ post.url }}">{{ post.title }}</a></li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+        <!-- End list toc -->
+      </div>
+    </div>
+  </div>
+  <!-- End accordion level -->
+</div>
