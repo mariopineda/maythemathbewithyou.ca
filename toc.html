@@ -23,9 +23,9 @@ After!
         <div class="list-group">
           {% for post in site.posts %}
           {% if post.course == "10C" and post.unit == "Prereqs" and post.status == "public" %}
-          <a href="{{ post.url }}" class="list-group-item list-group-item-action">{{ post.title }}</a>
+          <a href="{{ post.url }}" class="list-group-item list-group-item-action">{{ post.title }} (Grade 10, {{ post.type }})</a>
           {% endif %}
-          {% endfor %}          
+          {% endfor %}
         </div>
       </div>
     </div>
