@@ -23,8 +23,8 @@ After!
         <p class="card-text">Junior Hight (Grade 6-9) review problems for high school mathematics.</p>
         <div class="list-group">
           {% for post in site.posts %}
-          {% if post.unit == "Prereqs" and post.status == "public" %}
-          <a href="{{ post.url }}" class="list-group-item list-group-item-action">{{ post.title }} (Grade 10, {{ post.type }})</a>
+          {% if post.category == "Prerequisites" and post.published  %}
+          <a href="{{ post.url }}" class="list-group-item list-group-item-action">{{ post.title }} (Grade {{ post.grade }}, Level: {{ post.standard }})</a>
           {% endif %}
           {% endfor %}
         </div>
