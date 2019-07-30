@@ -24,7 +24,8 @@ After!
         <div class="list-group">
           {% for post in site.posts %}
           {% if post.category == "Prerequisites" and post.published  %}
-          <a href="{{ post.url }}" class="list-group-item list-group-item-action">{{ post.title }} (Grade {{ post.grade }}, Level: {{ post.standard }})</a>
+          <a href="{{ post.url }}" class="list-group-item list-group-item-action">{{ post.title }}</a> <br>
+          <small>(Grade {{ post.grade }}, Level: {{ post.level }}, Type: {{ post.tags }})</small>
           {% endif %}
           {% endfor %}
         </div>
