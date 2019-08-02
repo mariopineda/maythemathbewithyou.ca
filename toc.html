@@ -26,7 +26,7 @@ After!
           {% if post.category == "Prerequisites" and post.published  %}
           <a href="{{ post.url }}" class="list-group-item list-group-item-action"><big><b>{{ post.title }}</b></big></br>
           {{post.description}}</br>
-          (Grade {{ post.grade }}, Level: {{ post.level }}, Type: {{ post.tags }})</a>
+          <small>Grade {{ post.grade }}, Level: {{ post.level }}, Type: {{ post.tags }}</small></a>
           {% endif %}
           {% endfor %}
         </div>
