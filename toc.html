@@ -64,17 +64,17 @@ After!
 
     <!-- Start of card -->
     <div class="card">
-      <h5 class="card-header">Relations and Functions</h5>
+      <h5 class="card-header">Real Numbers</h5>
       <div class="card-body">
-        <p class="card-text">Junior Hight (Grade 6-9) review problems for high school mathematics.</p>
+        <p class="card-text">...</p>
         <div class="list-group">
-          <a href="#" class="list-group-item list-group-item-action">
-            Cras justo odio
-          </a>
-          <a href="#" class="list-group-item list-group-item-action">Polynomials</a>
-          <a href="#" class="list-group-item list-group-item-action">Linear Functions</a>
-          <a href="#" class="list-group-item list-group-item-action">Systems of Equations</a>
-          <a href="#" class="list-group-item list-group-item-action disabled">Right Triangle Trigonometry</a>
+          {% for post in site.posts %}
+          {% if post.category == "Real Numbers" and post.published  %}
+          <a href="{{ post.url }}" class="list-group-item list-group-item-action"><big><b>{{ post.title }}</b></big></br>
+          {{post.description}}</br>
+          <small>Grade {{ post.grade }}, Math {{post.course}}, Level: {{ post.level }}</small></a>
+          {% endif %}
+          {% endfor %}
         </div>
       </div>
     </div>
