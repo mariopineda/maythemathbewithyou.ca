@@ -140,6 +140,134 @@ After!
     </div>
     <!-- End of card -->
   </div>
+
+  <!-- 3rd row ->
+  <!-- Left column -->
+  <div class="col-xl-4 col-lg-6 col-md-12">
+    <!-- Start of card -->
+    <div class="card">
+      <h5 class="card-header">Linear Functions</h5>
+      <div class="card-body">
+        <p class="card-text">...</p>
+        <div class="list-group">
+          {% for post in site.posts %}
+          {% if post.category == "Linear Functions" and post.published  %}
+          <a href="{{ post.url }}" class="list-group-item list-group-item-action"><big><b>{{ post.title }}</b></big></br>
+          {{post.description}}</br>
+          <small>Grade {{ post.grade }}, Math {{post.course}}, Level: {{ post.level }}</small></a>
+          {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    <!-- End of card -->
+  </div>
+
+  <!-- Middle column -->
+  <div class="col-xl-4 col-lg-6 col-md-12">
+    <!-- Start of card -->
+    <div class="card">
+      <h5 class="card-header">Systems of Equations</h5>
+      <div class="card-body">
+        <p class="card-text">...</p>
+        <div class="list-group">
+          {% for post in site.posts %}
+          {% if post.category == "Systems of Equations" and post.published  %}
+          <a href="{{ post.url }}" class="list-group-item list-group-item-action"><big><b>{{ post.title }}</b></big></br>
+          {{post.description}}</br>
+          <small>Grade {{ post.grade }}, Math {{post.course}}, Level: {{ post.level }}</small></a>
+          {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    <!-- End of card -->
+  </div>
+
+  <!-- Right column -->
+  <div class="col-xl-4 col-lg-6 col-md-12">
+    <!-- Start of card -->
+    <div class="card">
+      <h5 class="card-header">Measurement</h5>
+      <div class="card-body">
+        <p class="card-text">...</p>
+        <div class="list-group">
+          {% for post in site.posts %}
+          {% if post.category == "Measurement" and post.published  %}
+          <a href="{{ post.url }}" class="list-group-item list-group-item-action"><big><b>{{ post.title }}</b></big></br>
+          {{post.description}}</br>
+          <small>Grade {{ post.grade }}, Math {{post.course}}, Level: {{ post.level }}</small></a>
+          {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    <!-- End of card -->
+  </div>
+
+  <!-- 4rd row ->
+  <!-- Left column -->
+  <div class="col-xl-4 col-lg-6 col-md-12">
+    <!-- Start of card -->
+    <div class="card">
+      <h5 class="card-header">Right Triangle Trigonometry</h5>
+      <div class="card-body">
+        <p class="card-text">...</p>
+        <div class="list-group">
+          {% for post in site.posts %}
+          {% if post.category == "Right Triangle Trigonometry" and post.published  %}
+          <a href="{{ post.url }}" class="list-group-item list-group-item-action"><big><b>{{ post.title }}</b></big></br>
+          {{post.description}}</br>
+          <small>Grade {{ post.grade }}, Math {{post.course}}, Level: {{ post.level }}</small></a>
+          {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    <!-- End of card -->
+  </div>
+
+  <!-- Middle column -->
+  <div class="col-xl-4 col-lg-6 col-md-12">
+    <!-- Start of card -->
+    <div class="card">
+      <h5 class="card-header">Obtuse Triangle Trigonometry</h5>
+      <div class="card-body">
+        <p class="card-text">...</p>
+        <div class="list-group">
+          {% for post in site.posts %}
+          {% if post.category == "Obtuse Triangle Trigonometry" and post.published  %}
+          <a href="{{ post.url }}" class="list-group-item list-group-item-action"><big><b>{{ post.title }}</b></big></br>
+          {{post.description}}</br>
+          <small>Grade {{ post.grade }}, Math {{post.course}}, Level: {{ post.level }}</small></a>
+          {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    <!-- End of card -->
+  </div>
+
+  <!-- Right column -->
+  <div class="col-xl-4 col-lg-6 col-md-12">
+    <!-- Start of card -->
+    <div class="card">
+      <h5 class="card-header">Statistics</h5>
+      <div class="card-body">
+        <p class="card-text">...</p>
+        <div class="list-group">
+          {% for post in site.posts %}
+          {% if post.category == "Statistics" and post.published  %}
+          <a href="{{ post.url }}" class="list-group-item list-group-item-action"><big><b>{{ post.title }}</b></big></br>
+          {{post.description}}</br>
+          <small>Grade {{ post.grade }}, Math {{post.course}}, Level: {{ post.level }}</small></a>
+          {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    <!-- End of card -->
+  </div>
 </div>
 
 <!------------->
