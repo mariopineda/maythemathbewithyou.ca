@@ -303,30 +303,20 @@ After!
   </tbody>
 </table>
 
-<button onclick="toggleClock()" id="clockButton">Show clock</button>
-<script>
-  function toggleClock() {
-    // get the clock
-    var myClock = document.getElementById('clock');
-
-    // get the current value of the clock's display property
-    var displaySetting = myClock.style.display;
-
-    // also get the clock button, so we can change what it says
-    var clockButton = document.getElementById('clockButton');
-
-    // now toggle the clock and the button text, depending on current state
-    if (displaySetting == 'block') {
-      // clock is visible. hide it
-      myClock.style.display = 'none';
-      // change button text
-      clockButton.innerHTML = 'Show clock';
-    }
-    else {
-      // clock is hidden. show it
-      myClock.style.display = 'block';
-      // change button text
-      clockButton.innerHTML = 'Hide clock';
-    }
-  }
-  </script>
+<p>
+  <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1">
+    Link with href
+  </a>
+  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2">
+    Button with data-target
+  </button>
+</p>
+<div class="collapse" id="collapseExample1">
+  <div class="card card-body">
+    First ...
+  </div>
+  <div class="collapse" id="collapseExample2">
+    <div class="card card-body">
+      Second ...
+    </div>
+</div>
