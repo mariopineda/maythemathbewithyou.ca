@@ -280,23 +280,25 @@ After!
 <table class="table table-hover">
   <thead>
     <tr>
-      <th scope="col">Topic</th>
-      <th scope="col">Description</th>
-      <th scope="col">Grade (Course)</th>
+      <th scope="col">Title</th>
+      <th scope="col">Topic/Unit</th>
+      <th scope="col">Grade</th>
+      <th scope="col">Course</th>
       <th scope="col">Difficulty level</th>
     </tr>
   </thead>
   <tbody>
 
     {% for post in site.posts %}
-    {% if post.category == "Prerequisites" and post.published  %}
-    <tr>
-      <th scope="row"><a href="{{ post.url }}" ><b>{{ post.title }}</b></th>
-      <td>{{post.description}}</td>
-      <td>{{ post.grade }} (math {{post.course}})</td>
-      <td>{{ post.level }}</td>
-    </tr>
-    {% endif %}
-    {% endfor %}
+      {% if post.published  %}
+      <tr>
+        <th scope="row"><a href="{{ post.url }}" >{{ post.title }}</th>
+        <td>{{post.category}}</td>
+        <td>{{ post.grade }}</td>
+        <td>Math {{post.course}}</td>
+        <td>{{ post.level }}</td>
+      </tr>
+      {% endif %}
+      {% endfor %}
   </tbody>
 </table>
