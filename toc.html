@@ -283,7 +283,7 @@ After!
     <div class="card-header" id="headingOne">
       <h2 class="mb-0">
         <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          Collapsible Group Item #1
+          Prerequisites
         </button>
       </h2>
     </div>
@@ -293,8 +293,8 @@ After!
         <table class="table table-hover">
           <thead>
             <tr>
-              <th scope="col">Title</th>
-              <th scope="col">Topic/Unit</th>
+              <th scope="col"></th>
+              <th scope="col"></th>
               <th scope="col">Grade</th>
               <th scope="col">Course</th>
               <th scope="col">Difficulty level</th>
@@ -305,7 +305,7 @@ After!
               {% if post.category == "Prerequisites" and post.published  %}
               <tr>
                 <th scope="row"><a href="{{ post.url }}" >{{ post.title }}</th>
-                <td>{{post.category}}</td>
+                <td>{{ post.description }}</td>  
                 <td>{{ post.grade }}</td>
                 <td>Math {{post.course}}</td>
                 <td>{{ post.level }}</td>
