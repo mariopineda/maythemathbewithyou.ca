@@ -1,13 +1,13 @@
 <!-- Start accordion level -->
 <div class="card">
-  <div class="card-header" id="heading{{ include.title }}">
+  <div class="card-header" id="heading{{ include.number }}">
     <h2 class="mb-0">
-      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse{{ include.title }}" aria-expanded="false" aria-controls="collapse{{ include.title }}">
+      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse{{ include.number }}" aria-expanded="false" aria-controls="collapse{{ include.number }}">
         Collapsible Group Item {{ include.topic }}
       </button>
     </h2>
   </div>
-  <div id="collapse{{ include.title }}" class="collapse" aria-labelledby="heading{{ include.title }}" data-parent="#accordionExample">
+  <div id="collapse{{ include.number }}" class="collapse" aria-labelledby="heading{{ include.number }}" data-parent="#accordionExample">
     <div class="card-body">
       <table class="table table-hover">
         <thead>
