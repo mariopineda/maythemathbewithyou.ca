@@ -1,0 +1,39 @@
+<!-- Start accordion level -->
+<div class="card">
+  <div class="card-header" id="heading{{ include.number }}">
+    <h2 class="mb-0">
+      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse{{ include.number }}" aria-expanded="false" aria-controls="collapse{{ include.number }}">
+        Collapsible Group Item {{ include.number }}
+      </button>
+    </h2>
+  </div>
+  <div id="collapse{{ include.number }}" class="collapse" aria-labelledby="heading{{ include.number }}" data-parent="#accordionExample">
+    <div class="card-body">
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th scope="col"></th>
+            <th scope="col"></th>
+            <th scope="col">Grade</th>
+            <th scope="col">Course</th>
+            <th scope="col">Difficulty level</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for post in site.posts %}
+            {% if post.category == "include.topic" and post.published  %}
+            <tr>
+              <th scope="row"><a href="{{ post.url }}" >{{ post.title }}</th>
+              <td>{{ post.description }}</td>
+              <td>{{ post.grade }}</td>
+              <td>Math {{post.course}}</td>
+              <td>{{ post.level }}</td>
+            </tr>
+            {% endif %}
+            {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+<!-- End accordion level -->
