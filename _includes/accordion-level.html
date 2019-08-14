@@ -1,9 +1,17 @@
 <!-- Start accordion level -->
+
+{% assign count = 0 %}
+{% for post in site.posts %}
+  {% if post.category == include.topic and post.published  %}
+    {% assign count = count | plus: 1 %}
+  {% endif %}
+{% endfor %}
+
 <div class="card">
   <div class="card-header" id="heading{{ include.number }}">
     <h2 class="mb-0">
       <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse{{ include.number }}" aria-expanded="false" aria-controls="collapse{{ include.number }}">
-        {{ include.topic }}
+        {{ include.topic }} ({{ count }})
       </button>
     </h2>
   </div>
