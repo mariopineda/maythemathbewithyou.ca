@@ -382,7 +382,7 @@ After!
           </thead>
           <tbody>
             {% for post in site.posts %}
-              {% if post.category == "Real Numbers" and post.published  %}
+              {% if post.category == \"Real Numbers\" and post.published  %}
               <tr>
                 <th scope="row"><a href="{{ post.url }}" >{{ post.title }}</th>
                 <td>{{ post.description }}</td>
@@ -399,6 +399,6 @@ After!
   </div>
   <!-- End accordion level -->
 
-  {% include accordion-level.html topic="Relations & Functions" number="Four"%}
+  {% include accordion-level.html topic="Relations & Functions" number="Four" %}
 
 </div>
