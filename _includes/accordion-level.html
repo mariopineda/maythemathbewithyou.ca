@@ -11,7 +11,8 @@
   <div class="card-header" id="heading{{ include.number }}">
     <h2 class="mb-0">
       <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse{{ include.number }}" aria-expanded="false" aria-controls="collapse{{ include.number }}">
-        {{ include.topic }} ({{ count }})
+        {{ include.topic }}
+        <span class="badge badge-primary badge-pill">{{ count }}</span>
       </button>
     </h2>
   </div>
