@@ -21,6 +21,13 @@ After!
 
 As of {{ "now" | date: "%b %d" }} there are a total of {{ totalcount }} practice problems.
 
+{% assign post = site.posts.first %}
+<a href="{{ post.url }}" >{{ post.title }}</a>
+{{ post.description }}
+{{ post.grade }}
+Math {{post.course}}
+{{ post.level }}
+
 <!-- New Below -->
 <div class="accordion" id="accordionExample">
   {% include accordion-level.html topic="Prerequisites" number="One" %}
