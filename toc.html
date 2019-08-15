@@ -12,6 +12,15 @@ After!
 <h1>Practice problems library</h1>
 <p>High school level math practice problem library. Material aligned with <a href="http://maythemathbewithyou.com/resources/math10to12.pdf">Alberta Education High School Program of Study in Mathematics</a>.</p>
 
+{% assign totalcount = 0 %}
+{% for post in site.posts %}
+  {% if post.published  %}
+    {% assign totalcount = totalcount | plus: 1 %}
+  {% endif %}
+{% endfor %}
+
+Today there are a total of {{ totalcount }} practice problems.
+
 <!-- New Below -->
 <div class="accordion" id="accordionExample">
   {% include accordion-level.html topic="Prerequisites" number="One" %}
@@ -26,5 +35,5 @@ After!
   {% include accordion-level.html topic="Right Triangle Trigonometry" number="Ten" %}
   {% include accordion-level.html topic="Oblique Triangle Trigonometry" number="Eleven" %}
   {% include accordion-level.html topic="Statistics" number="Twelve" %}
-  {% include accordion-level.html topic="Probability" number="Thirteen" %}  
+  {% include accordion-level.html topic="Probability" number="Thirteen" %}
 </div>
