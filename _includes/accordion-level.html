@@ -36,7 +36,15 @@
               <td>{{ post.description }}</td>
               <td>{{ post.grade }}</td>
               <td>Math {{post.course}}</td>
-              <td>{{ post.level }}</td>
+              {% if post.level == "easy" %}
+                <td><span class="badge badge-pill badge-success">Easy</span></td>
+              {% endif %}
+              {% if post.level == "moderate" %}
+                <td><span class="badge badge-pill badge-warning">Moderate</span></td>
+              {% endif %}
+              {% if post.level == "difficult" %}
+                <td><span class="badge badge-pill badge-danger">Difficult</span></td>
+              {% endif %}
             </tr>
             {% endif %}
             {% endfor %}
