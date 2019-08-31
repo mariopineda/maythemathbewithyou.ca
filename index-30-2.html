@@ -5,20 +5,11 @@ title: Math 30-2
 ---
 <h1>{{ page.title }}</h1>
 <!-- {% include alert-30-2.html %} -->
-{% for post in site.categories.announcement %}
- <span>{{ post.date | date_to_string }}</span> &nbsp; {{ post.title }}
-{% endfor %}
 
 <!-- Display the latest announcement -->
-{% assign post = site.posts.first %}
-<div class="card bg-light">
-  <h5 class="card-header">Latest Practice Problem</h5>
-  <div class="card-body">
-    <h5 class="card-title"><a href="{{ post.url }}" >{{ post.title }}</a></h5>
-    <p class="card-text">{{ post.description }}</p>
-    <small>Grade: {{ post.grade }}, Course: Math {{post.course}}, Level: {{ post.level }}</small>
-  </div>
-</div>
+{% for post in site.category.announcement %}
+ <span>{{ post.date | date_to_string }}</span> &nbsp; {{ post.title }}
+{% endfor %}
 
 <div class="accordion" id="accordionExample">
   <div class="card">
