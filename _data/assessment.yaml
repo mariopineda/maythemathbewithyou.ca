@@ -141,3 +141,63 @@
   unit: Diploma Exam
   weight: 30% (blended by AB Ed)
   url: NA
+
+- class: 30-2
+  examdate: Wed Jan 22
+  unit: Diploma Exam
+  weight: 30% (blended by AB Ed)
+  url: NA
+
+- class: 10-3
+  examdate: Th Sep 26
+  unit: Unit 1 - Pricing and currency exchange
+  weight:
+  url: NA
+
+- class: 10-3
+  examdate: Wed Oct 9
+  unit: Unit 2 - Measurement of length
+  weight:
+  url: NA
+
+- class: 10-3
+  examdate: Mon Oct 21
+  unit: Unit 3 - Measures of area
+  weight:
+  url: NA
+
+- class: 10-3
+  examdate: Th Oct 31
+  unit: Unit 4 - Other measures
+  weight:
+  url: NA
+
+- class: 10-3
+  examdate: Mon Nov 4 - Th Nov 7
+  unit: Final Exam Part A
+  weight:
+  url: NA
+
+- class: 10-3
+  examdate: Mon Nov 25
+  unit: Unit 5 - Geometry
+  weight:
+  url: NA
+
+- class: 10-3
+  examdate: Fri Dec 13
+  unit: Unit 6 - Trigonometry
+  weight:
+  url: NA
+
+- class: 10-3
+  examdate: Wed Jan 8
+  unit: Unit 7 - Earning and income
+  weight:
+  url: NA
+
+- class: 10-3
+  examdate: Wed Jan 15 - Fri Jan 17
+  unit: Final Exam Part B
+  weight:
+  url: NA
