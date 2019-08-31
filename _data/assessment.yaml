@@ -6,7 +6,7 @@
 
 - class: 20-2
   examdate: Wed Sep 25
-  unit: Unit 2 - Angles
+  unit: Unit 2 - Properties of angles
   weight: 11.4%
   url: NA
 
@@ -70,146 +70,74 @@
   weight: 11.4%
   url: NA
 
-- class: 30-2 Block 4
-  examdate: Tu Feb 19
+- class: 30-2
+  examdate: Tu Sep 17
   unit: Unit 1 - Polynomial Functions
   weight: 12.5%
-  url: https://drive.google.com/file/d/1ktAMGJmtNFnbX5x3IHipzLsZZY_iFSDr/view?usp=sharing
+  url: NA
 
-- class: 30-2 Block 4
-  examdate: Wed March 6
-  unit: Unit 2 - Exponential Functions
+- class: 30-2
+  examdate: Tu Oct 1
+  unit: Unit 2 - Exponents
   weight: 12.5%
-  url: https://drive.google.com/file/d/12E8IRVhUT_90XVvxgWCfQkO5ELVfKmKo/view?usp=sharing
+  url: NA
 
-- class: 30-2 Block 4
-  examdate: Fri March 22
+- class: 30-2
+  examdate: Tu Oct 15
   unit: Unit 3 - Rational Expressions & Equations
   weight: 12.5%
-  url: https://drive.google.com/file/d/1r5H3lkHRDwCZuRwVoPCXXKqgiwIoT0e7/view?usp=sharing
+  url: NA
 
-- class: 30-2 Block 4
-  examdate: Wed April 10
+- class: 30-2
+  examdate: Mon Oct 28
   unit: Unit 4 - Set Theory
   weight: 12.5%
-  url: https://drive.google.com/file/d/1OmNcuhaCTVzNbldCr3nT5R6BuQ-bOmOM/view?usp=sharing
+  url: NA
 
-- class: 30-2 Block 4
-  examdate: Fri April 26
+- class: 30-2
+  examdate: Fri Nov 15
   unit: Unit 5 - Logarithmic Functions
   weight: 12.5%
-  url: https://drive.google.com/file/d/1kmJJU-GCDS1HvrD_gL0oJDwEL6fbqmjg/view?usp=sharing
+  url: NA
 
-- class: 30-2 Block 4
-  examdate: Mon May 13
+- class: 30-2
+  examdate: Mon Dec 2
   unit: Unit 6 - Counting Methods
   weight: 12.5%
-  url: https://drive.google.com/file/d/15HRDS756LKsRuBEQad55xO56UMU5meBo/view?usp=sharing
+  url: NA
 
-- class: 30-2 Block 4
-  examdate: Wed May 29 (Changed date!)
+- class: 30-2
+  examdate: Mon Dec 9
+  unit: Rationals Replacement Exam (Rational Expressions)
+  weight: 12.5%
+  url: NA
+
+- class: 30-2
+  examdate: Tu Dec 17
   unit: Unit 7 - Probability
   weight: 12.5%
-  url: https://drive.google.com/file/d/1p-A2Sqz83qbjL611XeootcrYXdLF31zT/view?usp=sharing
+  url: NA
 
-- class: 30-2 Block 4
-  examdate: Fri May 31
+- class: 30-2
+  examdate: Fri Jan 10
+  unit: Unit 8 - Sinusoidal Functions
+  weight: 12.5%
+  url: NA
+
+- class: 30-2
+  examdate: Wed Jan 15
   unit: Logic Replacement Exam (Set Theory, Counting Methods, Probability)
-  weight:
-  url: NA
-
-- class: 30-2 Block 4
-  examdate: Fri June 7
-  unit: Unit 8 - Sinusoidal Functions
   weight: 12.5%
-  url: https://drive.google.com/file/d/1JtWMWTwU9b6QXMlJcOXAq743i5Zfcv7J/view?usp=sharing
-
-- class: 30-2 Block 4
-  examdate: Tu June 11
-  unit: Rationals Replacement Exam (Rational Expressions)
-  weight:
   url: NA
 
-- class: 30-2 Block 4
-  examdate: Fri June 14
+- class: 30-2
+  examdate: Fri Jan 17
   unit: Functions Replacement Exam (Polynomials, Exponents, Logs, Sinusoidal)
-  weight:
+  weight: 12.5%
   url: NA
 
-- class: 30-2 Block 4
-  examdate: Wed June 19
-  unit: Diploma Exam
-  weight: 30% (blended by AB Ed)
-  url: NA
-
-- class: 30-2 Block 5
-  examdate: Tu Feb 19
-  unit: Unit 1 - Polynomial Functions
-  weight: 12.5%
-  url: https://drive.google.com/file/d/1bL2JBzCrJ3-E33cO1gmO_UbW-bvHVPDb/view?usp=sharing
-
-- class: 30-2 Block 5
-  examdate: Wed March 6
-  unit: Unit 2 - Exponential Functions
-  weight: 12.5%
-  url: https://drive.google.com/file/d/1cz5Fk6bACHxkv1XsdkH_eb1VCLomtgN2/view?usp=sharing
-
-- class: 30-2 Block 5
-  examdate: Fri March 22
-  unit: Unit 3 - Rational Expressions & Equations
-  weight: 12.5%
-  url: https://drive.google.com/file/d/1JbERY59101Hrl9l-BZQo0AlZsfG15dLH/view?usp=sharing
-
-- class: 30-2 Block 5
-  examdate: Wed April 10
-  unit: Unit 4 - Set Theory
-  weight: 12.5%
-  url: https://drive.google.com/file/d/1NPfdrPlYYSsUkOBHJRJLxjeRIOVJPg3a/view?usp=sharing
-
-- class: 30-2 Block 5
-  examdate: Fri April 26
-  unit: Unit 5 - Logarithmic Functions
-  weight: 12.5%
-  url: https://drive.google.com/file/d/1S0QPR_PZLQtmRXH4fxLTRxXjTjLpLGjM/view?usp=sharing
-
-- class: 30-2 Block 5
-  examdate: Mon May 13
-  unit: Unit 6 - Counting Methods
-  weight: 12.5%
-  url: https://drive.google.com/file/d/1aSS9_7jesxa9yQao5d9sdRtw8uO0IhnR/view?usp=sharing
-
-- class: 30-2 Block 5
-  examdate: Wed May 29 (Changed date!)
-  unit: Unit 7 - Probability
-  weight: 12.5%
-  url: https://drive.google.com/file/d/1LtOpOKUkUyp3MmHQlCkNVRPhq2XgDQg7/view?usp=sharing
-
-- class: 30-2 Block 5
-  examdate: Fri May 31
-  unit: Logic Replacement Exam (Set Theory, mCounting Methods, Probability)
-  weight:
-  url: NA
-
-- class: 30-2 Block 5
-  examdate: Fri June 7
-  unit: Unit 8 - Sinusoidal Functions
-  weight: 12.5%
-  url: https://drive.google.com/file/d/11c1XhtlMpHLV4GSnJ243UPZqFYxFuoZi/view?usp=sharingA
-
-- class: 30-2 Block 5
-  examdate: Tu June 11
-  unit: Rationals Replacement Exam (Rational Expressions)
-  weight:
-  url: NA
-
-- class: 30-2 Block 5
-  examdate: Fri June 14
-  unit: Functions Replacement Exam (Polynomials, Exponents, Logs, Sinusoidal)
-  weight:
-  url: NA
-
-- class: 30-2 Block 5
-  examdate: Wed June 19
+- class: 30-2
+  examdate: Wed Jan 22
   unit: Diploma Exam
   weight: 30% (blended by AB Ed)
   url: NA
