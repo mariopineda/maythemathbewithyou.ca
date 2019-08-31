@@ -5,9 +5,9 @@ title: Math 30-2
 ---
 <h1>{{ page.title }}</h1>
 <!-- {% include alert-30-2.html %} -->
-{% for post in site.categories.announcement  limit:1 %}
-Most recent post: {{post.date}}
-{% endfor%
+{% for post in site.categories.announcement %}
+ <span>{{ post.date | date_to_string }}</span> &nbsp; {{ post.title }}
+{% endfor %}
 
 <!-- Display the latest announcement -->
 {% assign post = site.posts.first %}
