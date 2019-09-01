@@ -33,7 +33,7 @@
             {% if post.category == include.topic and post.published  %}
             <tr>
               <th scope="row"><a href="{{ post.url }}" >{{ post.title }}</th>
-              <td>{{ post.description }}</td>
+              <!-- <td>{{ post.description }}</td> -->
               <td>{{ post.grade }}</td>
               <td>Math {{post.course}}</td>
               {% if post.level == "easy" %}
