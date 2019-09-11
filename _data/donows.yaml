@@ -5,10 +5,14 @@
 - class: 30-2
   donowdate: Fri Sep 6
   url: /domain-and-range/
-  
+
 - class: 30-2
   donowdate: Mon Sep 9
   url: /seasonal-sea-ice-extent/
+
+- class: 30-2
+  donowdate: Wed Sep 11
+  url: /ozone-hole-size/
 
 - class: 20-2
   donowdate: Thu Sep 5
@@ -17,7 +21,11 @@
 - class: 20-2
   donowdate: Fri Sep 6
   url: /solving-algebraically/
-  
+
 - class: 20-2
   donowdate: Mon Sep 9
   url: /number-patterns/
+
+  - class: 20-2
+    donowdate: Wed Sep 11
+    url: /sum-of-consecutive-numbers/
