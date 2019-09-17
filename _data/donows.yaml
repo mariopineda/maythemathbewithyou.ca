@@ -20,7 +20,7 @@
 
 - class: 30-2
   donowdate: Fri Sep 13
-  url: /canada-ghg-emissions/  
+  url: /canada-ghg-emissions/
 
 - class: 20-2
   donowdate: Thu Sep 5
@@ -41,3 +41,7 @@
 - class: 20-2
   donowdate: Mon Sep 16
   url: /number-expressions/
+
+- class: 20-2
+  donowdate: Tue Sep 17
+  url: /angles-and-parallel-lines/
