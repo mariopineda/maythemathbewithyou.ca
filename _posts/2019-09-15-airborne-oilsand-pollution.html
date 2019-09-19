@@ -18,11 +18,11 @@ published: true
   <li>The exponential function describing the lead concentration can be written in the form $y=a \times b^x$.
     <ol>
       <li>What is the value of the parameter $a$? What does the $a$-value represent within this context? What are the units of the a-value?</li>
-      <li>What is the value of the parameter $b$? What does the $b$-value represent within this context? What are the units of the b-value?</li>
+      <li>What is the value of the parameter $b$? What does the $b$-value represent within this context?</li>
       </ol>
-  <li>The average background level of lead in the environment (in the absence of pollution) is approximatelly 2.2 $\mu$g/m$^2$. Determine at what distance from the upgrading facility the lead concentration was back at the normal level.</li>
-  <li>How many times higher was the concentration of lead at the upgrading facility compared to the background level?</li>
-  <li>State a possible domain and range for the exponential function that could be used in this context.</li>
+  <li>The average background level of lead in the environment (in the absence of pollution) is approximatelly 2.2 $\mu$g/m$^2$. Determine at what distance from the upgrading facility the lead concentration was back at the normal level. Round your answer to the nearest whole kilometer.</li>
+  <li>How many times higher was the concentration of lead at the upgrading facility compared to the background level? Round your answer to the nearest whole number.</li>
+  <li>State a possible domain and range for the exponential function describing the lead concentration between the upgrading facility and the point at which the lead concentration is back at the background level.</li>
 </ol>
 <!--  -->
   <div class="accordion" id="accordionExample">
@@ -37,7 +37,16 @@ published: true
       <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
         <div class="card-body">
           <!--- Start solution --->
-          Let $x$ be the amount of discount you recieve on the book (in dollars), then when can use proportional reasoning to determine $x$ as follows, $\displaystyle\frac{part}{whole} \Rightarrow \displaystyle\frac{20}{100} = \displaystyle\frac{x}{24.50}$. By multiplying left and right hand side by 24.50 we get $x = \displaystyle\frac{20}{100} \times 24.50 = 4.90$. As an employee you get a discount of $\$4.90$ which means that you will be paying $\$19.60$ for the book ($24.50-4.90$).
+          <ol type="A">
+            <li>The exponential function describing the lead concentration can be written in the form $y=a \times b^x$.
+              <ol>
+                <li>$a=54.6 \mu$g\m$^2$. $a$ represents the lead concentration at the upgrade facility (where the distace is zero, $x=0$)</li>
+                <li>$b=0.97$. $b$ represents the rate of decay of the lead pollution, in this context the lead concentration declines by 3% for every kilometer ($(1-0.97)\times 100 = 3$).</li>
+                </ol>
+            <li>After graphing $y(x)$ add $y_2=2.2$ and find the x-coordinate of the point of intersection between ther two graphs (2nd+trace $\Rightarrow$ 5:intersect). The distance at which the lead concentration is back at background levels is 105 km away from the upgrading facility.</li>
+            <li>Divide the lkead concentraytion at the upgrade facility (54.6 \mu$g\m$^2$) by the background level 2.2 $\mu$g/m$^2$, $\displaystyle\frac{54.6}{2.2} = 24.\bar{81} \approx 25$ times higher.</li>
+            <li>Domain: $\{ x | 0 \leq x \leq 105, x \in \mathbb{R} \}$. Range: $\{y | 2.2 \leq y \leq 54.6\}$</li>
+          </ol>
           <!--- End solution --->
         </div>
       </div>
