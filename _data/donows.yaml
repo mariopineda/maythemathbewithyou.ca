@@ -26,6 +26,10 @@
   donowdate: Wed Sep 18
   url: /function-notation/
 
+- class: 30-2
+  donowdate: Wed Sep 18
+  url: /airborne-oilsand-pollution/
+
 - class: 20-2
   donowdate: Thu Sep 5
   url: /simplify-polynomials/
@@ -53,3 +57,7 @@
 - class: 20-2
   donowdate: Wed Sep 18
   url: /function-notation/
+
+- class: 20-2
+  donowdate: Fri Sep 20
+  url: /angles-in-triangles/
