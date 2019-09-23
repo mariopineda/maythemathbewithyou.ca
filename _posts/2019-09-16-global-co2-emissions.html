@@ -1,0 +1,56 @@
+---
+layout: post
+title: Global CO2 emissions
+category: Exponential functions
+description:
+tags: Problem solving
+level: moderate
+grade: 12
+course: 30-2
+sourcetitle: CAIT Climate Data Explorer. 2017. Washington, DC: World Resources Institute.
+sourceurl: https://cait.wri.org
+qrcode:
+video:
+published: true
+---
+<p>The global CO2 emissions between 1850 and 2014 can be moddeled with the following exponential function $y = 3.094\times 10^{-22} \times 1.0303^x$</p>
+<ol type="A">
+  <li>The exponential function describing the lead concentration can be written in the form $y=a \times b^x$.
+    <ol>
+      <li>What is the value of the parameter $a$? What does the $a$-value represent in this context? What is the unit for $a$?</li>
+      <li>What is the value of the parameter $b$? What does the $b$-value represent in this context?</li>
+    </ol>
+  <li>Sketch the function, label the axes and indicate your window settings.</li>
+  <li>The average background level of lead in this region (in the absence of pollution) is approximatelly 2.2 $\mu$g/m$^2$. Determine how far away from the upgrading facility you would have to be for the lead levels to be at the background levels. Round your answer to the nearest whole kilometer.</li>
+  <li>State a possible domain and range for the exponential function describing the lead concentration between the upgrading facility and the distance at which the lead concentration is at background levels.</li>
+</ol>
+<!--  -->
+{% if false %}
+  <div class="accordion" id="accordionExample">
+    <div class="card">
+      <div class="card-header" id="headingOne">
+        <h5 class="mb-0">
+          <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+            <h2>Solution</h2>
+          </button>
+        </h5>
+      </div>
+      <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+        <div class="card-body">
+          <!--- Start solution --->
+          <ol type="A">
+            <li>The exponential function describing the lead concentration can be written in the form $y=a \times b^x$.
+              <ol>
+                <li>$a=54.6 \mu$g\m$^2$. $a$ represents the lead concentration at the upgrade facility (where the distace is zero, $x=0$)</li>
+                <li>$b=0.97$. $b$ represents the rate of decay of the lead pollution, in this context the lead concentration declines by 3% for every kilometer ($(1-0.97)\times 100 = 3$).</li>
+                </ol>
+            <li><img src="http://maythemathbewithyou.com/calculator/airborne-oilsands-pollution.png" width "100%"><p>The x-axis represents distance from upgrading facility in km and the y-axis represents lead concentration in $\mu$g/m$^2$. The window settings aare $X:[0, 200, 10]$ and $Y:[0, 60, 10]$.</p></li>
+            <li>After graphing $y(x)$ add $y_2=2.2$ and find the x-coordinate of the point of intersection between ther two graphs (2nd+trace $\Rightarrow$ 5:intersect). The distance at which the lead concentration is back at background levels is 105 km away from the upgrading facility.</li>
+            <li>Domain: $\{ x | 0 \leq x \leq 105, x \in \mathbb{R} \}$. Range: $\{y | 2.2 \leq y \leq 54.6\}$</li>
+          </ol>
+          <!--- End solution --->
+        </div>
+      </div>
+    </div>
+  </div>
+{% endif %}
