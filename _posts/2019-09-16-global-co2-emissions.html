@@ -13,13 +13,13 @@ qrcode:
 video:
 published: true
 ---
-<p>Carbon dioxide (CO₂) is an important heat-trapping greenhouse gas, which is released through human activities such as deforestation and burning fossil fuels. Carbon dioxide emissions from human activities are now higher than at any point in our history. Increases in atmospheric concentrations of CO₂ and other long-lived greenhouse gases are causing the rise in average global temperature since the mid-20th century. The global CO₂ emissions between 1850 and 2014 can be modelled with the following exponential function $e(t) = 260*1.0303^t$ where $t$ is the year since 1850 and $e(t)$ is the global annual CO₂ emissions in megatonnes.</p>
+<p>Carbon dioxide (CO₂) is an important heat-trapping greenhouse gas, which is primarily released through human activities such as deforestation and burning fossil fuels. Despite decades of warnings from scientists, carbon dioxide emissions from human activities are higher than at any point in our history and are reaching new record levels each year. Increases in atmospheric concentrations of CO₂ and other long-lived greenhouse gases are causing the rise in average global temperature since the mid-20th century. The global CO₂ emissions between 1850 and 2014 can be modelled with the following exponential function $e(t) = 260*1.0303^t$ where $t$ is the year since 1850 and $e(t)$ is the global annual CO₂ emissions in megatonnes.</p>
 
 <ol type="A">
   <li>Sketch the function, label the axes and indicate your window settings.</li>
   <li>State a possible domain and range for the exponential function in this context.</li>
-  <li>Determine by how much, in percent, the annual CO₂ emissions are projected to have increased during your life time. Round your answer to the nearest percent. Use the following formula to calculate the percent increase: $\displaystyle\frac{\mbox{emissions 2019} - \mbox{emissions the year you were born}}{\mbox{emissions the year you were born}} \times 100$.
-  <li>Is the prediction in C. an interpolation or an extrapolation? Explain? How does this affect the prediction of the exponential model?</li>  
+  <li>Determine by how much, in percent, the annual CO₂ emissions are projected to have increased since you were born. Use the following formula to calculate the percent increase: $\displaystyle\frac{\mbox{emissions 2019} - \mbox{emissions the year you were born}}{\mbox{emissions the year you were born}} \times 100$. Round your answer to the nearest percent.
+  <li>Is your prediction in C. an interpolation or an extrapolation? Explain how this affects the prediction of the exponential model?</li>
 </ol>
 <!--  -->
 {% if false %}
@@ -36,14 +36,10 @@ published: true
         <div class="card-body">
           <!--- Start solution --->
           <ol type="A">
-            <li>The exponential function describing the lead concentration can be written in the form $y=a \times b^x$.
-              <ol>
-                <li>$a=54.6 \mu$g\m$^2$. $a$ represents the lead concentration at the upgrade facility (where the distace is zero, $x=0$)</li>
-                <li>$b=0.97$. $b$ represents the rate of decay of the lead pollution, in this context the lead concentration declines by 3% for every kilometer ($(1-0.97)\times 100 = 3$).</li>
-                </ol>
-            <li><img src="http://maythemathbewithyou.com/calculator/airborne-oilsands-pollution.png" width "100%"><p>The x-axis represents distance from upgrading facility in km and the y-axis represents lead concentration in $\mu$g/m$^2$. The window settings aare $X:[0, 200, 10]$ and $Y:[0, 60, 10]$.</p></li>
-            <li>After graphing $y(x)$ add $y_2=2.2$ and find the x-coordinate of the point of intersection between ther two graphs (2nd+trace $\Rightarrow$ 5:intersect). The distance at which the lead concentration is back at background levels is 105 km away from the upgrading facility.</li>
-            <li>Domain: $\{ x | 0 \leq x \leq 105, x \in \mathbb{R} \}$. Range: $\{y | 2.2 \leq y \leq 54.6\}$</li>
+            <li>Sketch the function, label the axes and indicate your window settings.</li>
+            <li>Domain: ${t | 0 \leq t \leq 164, t \in \mathbb{R}}$ Range: ${e | 0 \leq e \leq 34800, e \in \mathbb{R} }$.</li>
+            <li>Determine by how much, in percent, the annual CO₂ emissions are projected to have increased during your life time. Round your answer to the nearest percent. Use the following formula to calculate the percent increase: $\displaystyle\frac{\mbox{emissions 2019} - \mbox{emissions the year you were born}}{\mbox{emissions the year you were born}} \times 100$.
+            <li>Is the prediction in C. an interpolation or an extrapolation? Explain? How does this affect the prediction of the exponential model?</li>
           </ol>
           <!--- End solution --->
         </div>
