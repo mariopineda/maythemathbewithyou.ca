@@ -20,7 +20,7 @@ published: true
 <ol type="A">
   <li>Determine the common ratio, to the nearest thousandth, for the years 2017 and 2018.</li>
   <li>Determine the rate, to the nearest thousandth, at which the area of the rainforest is decreasing.</li>
-  <li>Write the exponential equation that represents this situation, where $A(t)$ is the area of the forest cover in square kilometers in year $t$.</li>
+  <li>Write the exponential equation that represents this situation, where $A(t)$ is the area of the forest cover in square kilometers in year $t$, where $t$ is the number of years from 2018.</li>
   <li>Using your model, predict the area of the forest that will remain in 2030. Round your answer to the nearest whole square kilometer.</li>
   <li>Calculate the total area, to the nearest square kilometer, of forest lost between 2019 and 2020.</li>
 </ol>
@@ -39,12 +39,12 @@ published: true
         <div class="card-body">
           <!--- Start solution --->
           <ol type="A">
-            <li><img src="http://maythemathbewithyou.com/calculator/global-co2-emissions.png" width "100%"><p>The t-axis represents years since 1850 and the e-axis represents global annual CO₂ emissions in megatonnes. The window settings are $X:[0, 164, 10]$ and $Y:[0, 35000, 1000]$.</p></li>
-            <li>Domain: $\{t | 0 \leq t \leq 164, t \in \mathbb{R}\}$ Range: $\{e | 0 \leq e \leq 34755.2262, e \in \mathbb{R} \}$.</li>
-            <li>The answer to this question will depend on your birth year and today's date. If you were born in 2000, $t=2000-1850=150$ and the emission in that year were $e(150) = 260 \times 1.0303^{150} \Rightarrow e(150)=22883.8094$ megatonnes. If today's year is 2019, $t=2019-1850=169$ and the emission are $e(169) = 260 \times 1.0303^{169} \Rightarrow e(150)=40349.54284$ megatonnes. Using the provided formula, $\displaystyle\frac{40349.54284 - 22883.8094}{22883.8094} \times 100 = 76.3235...$. The CO₂ emissions are projected to have increased 76% between the years 2000 and 2019.
-            <li>The prediction is an extrapolation since the model is used to predict the emissions beyond the years for which it was calibrated (1850-2014). Caution needs to be taken when interpreting predictions based on extrapolation as the assumption one is making is that the trend described by the function continues beyond the data that was used to create the function. </li>
-          </ol>
-          <!--- End solution --->
+            <li>$\displaystyle\frac{3307949}{3315849}=0.998$</li>
+            <li>$(1-0.998) \ times 100 = 0.238$%</li>
+            <li>$A(t) = 3307949 \times 0.998^t$</li>
+            <li>$t=2030-2018=12$, $A(12) = 3307949 \times 0.998^12$, $A(12)=3229425$ km$^2$</li>
+            <li>$t=2020-2018=2 \Rightarrow$ $A(2)=3307949 \times 0.998^2$, $A(2) = 3294730$ km$^2$ remaining in 2020. $t=2019-2018=1 \Rightarrow$ $A(1)=3307949 \times 0.998^1$, $A(1) = 3301333$ km$^2$ remaining in 2019. Totsal area lost between 2019 and 2020, $3301333-3294730=6603$ km$^2$ lost.</li>
+          </ol>          <!--- End solution --->
         </div>
       </div>
     </div>
