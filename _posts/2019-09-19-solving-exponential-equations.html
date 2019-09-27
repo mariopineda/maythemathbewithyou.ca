@@ -1,0 +1,55 @@
+---
+layout: post
+title: Solving exponential equations
+category: Exponential functions
+description:
+tags: Skill building
+level: moderate
+grade: 12
+course: 30-2
+sourcetitle:
+sourceurl:
+qrcode:
+video:
+published: true
+---
+<p>Solve the following exponential equations.</p>
+
+<ol type="A">
+  <li>$5^{2x+3} = 5^7$</li>
+  <li>$7^{x-2} = 353$</li>
+  <li>$3^{5x-1} = 81^{3x}$</li>
+  <li>$5^{4a+2} = 25^a$</li>
+  <li>$2^{-1} = 64$</li>
+  <li>$10^{10x-2} = 1000^{20x-42}$</li>
+  <li>$8^{3x} = 4^{1-x}$</li>
+</ol>
+<!--  -->
+{% if true %}
+  <div class="accordion" id="accordionExample">
+    <div class="card">
+      <div class="card-header" id="headingOne">
+        <h5 class="mb-0">
+          <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+            <h2>Solution</h2>
+          </button>
+        </h5>
+      </div>
+      <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+        <div class="card-body">
+          <!--- Start solution --->
+          <ol type="A">
+            <li>$5^{2x+3} = 5^7 \Rightarrow$ drop the bases: $2x+3=7$, solve for $x$: $x=2$</li>
+            <li>$7^{x-2} = 353 \Rightarrow$ common bases: $7^{x-2} = 7^3$, drop the bases: $x-2=3$, solve for $x$: $x=5$</li>
+            <li>$3^{5x-1} = 81^{3x} \Rightarrow$ common bases: $3^{5x-1} = (3^4)^{3x}$, Power of a Power Law:$3^{5x-1} = 3^{12x}$, drop the bases: $5x-1=12x$, solve for $x$: $x=-\displaystyle\frac{1}{7}$ </li>
+            <li>$5^{4a+2} = 25^a$</li>
+            <li>$2^{-1} = 64$</li>
+            <li>$10^{10x-2} = 1000^{20x-42}$</li>
+            <li>$8^{3x} = 4^{1-x}$</li>
+          </ol>
+          <!--- End solution --->
+        </div>
+      </div>
+    </div>
+  </div>
+{% endif %}
