@@ -45,6 +45,10 @@
 - class: 30-2
   donowdate: Fri Sep 27
   url: /solving-exponential-equations/
+  
+- class: 30-2
+  donowdate: Wed Oct 2
+  url: /exponent-laws/  
 
 - class: 20-2
   donowdate: Thu Sep 5
@@ -89,3 +93,14 @@
 - class: 20-2
   donowdate: Mon Sep 30
   url: /solving-oblique-triangles-using-the-sine-law/
+<<<<<<< HEAD
+=======
+  
+- class: 20-2
+  donowdate: Tu Oct 1
+  url: /solving-oblique-triangles-using-the-cosine-law/ 
+  
+- class: 20-2
+  donowdate: Wed Oct 2
+  url: /solving-pairs-of-triangles/   
+>>>>>>> 93e8daf515d00430971e9c6f3e2518d8dca58e27
