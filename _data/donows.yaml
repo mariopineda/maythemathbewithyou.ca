@@ -58,6 +58,10 @@
   donowdate: Fri Oct 4
   url: /non-permissible-values/
 
+- class: 30-2
+  donowdate: Mon Oct 7
+  url: /simplifying-rational-expression/
+
 - class: 20-2
   donowdate: Thu Sep 5
   url: /simplify-polynomials/
