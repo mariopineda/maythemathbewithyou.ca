@@ -65,6 +65,10 @@
   donowdate: Tue Oct 8
   url: /fractions-arithmetic/
 
+- class: 30-2
+  donowdate: Wed Oct 9
+  url: /simplify-products-and-quotients-of-rational-expressions/
+
 - class: 20-2
   donowdate: Thu Sep 5
   url: /simplify-polynomials/
@@ -127,4 +131,4 @@
 
 - class: 20-2
   donowdate: Wed Oct 9
-  url: /rate-of-sea-level-rise/  
+  url: /rate-of-sea-level-rise/
