@@ -81,6 +81,10 @@
   donowdate: Thu Oct 17
   url: /strimko-puzzle/
 
+- class: 30-2
+  donowdate: Fri Oct 18
+  url: /magic-squares/
+
 - class: 20-2
   donowdate: Thu Sep 5
   url: /simplify-polynomials/
