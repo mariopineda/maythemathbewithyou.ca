@@ -85,6 +85,10 @@
   donowdate: Fri Oct 18
   url: /magic-squares/
 
+- class: 30-2
+  donowdate: Mon Oct 21
+  url: /GHG-emissions-by-province-and-territories/
+
 - class: 20-2
   donowdate: Thu Sep 5
   url: /simplify-polynomials/
@@ -160,7 +164,3 @@
 - class: 20-2
   donowdate: Wed Oct 16
   url: /scale-factor-conversions/
-
-- class: 20-2
-  donowdate: Mon Oct 21
-  url: /GHG-emissions-by-province-and-territories/
