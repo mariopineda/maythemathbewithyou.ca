@@ -1,0 +1,45 @@
+---
+layout: post
+title: Solving oblique triangles
+category: Right Triangle Trigonometry
+description: Solving right triangles (finding all sides and all angles)
+tags: Skill building
+level: difficult
+grade: 10
+course: 10C
+sourcetitle:
+sourceurl:
+qrcode:
+video:
+published: true
+---
+<p>Solve $\triangle ABC$ where $AD \bot BC$, $\angle BAD = 20^{\circ}$, $\angle CAD = 55^{\circ}$, $\angle DCA=35^{\circ}$ and $c=12.5$ cm. Round angles to the nearest degree and sides to nearest tenth.</p>
+
+{% if true %}
+  <div class="accordion" id="accordionExample">
+    <div class="card">
+      <div class="card-header" id="headingOne">
+        <h5 class="mb-0">
+          <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+            <h2>Solution</h2>
+          </button>
+        </h5>
+      </div>
+      <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+        <div class="card-body">
+          <!--- Start solution --->
+          <img src="http://maythemathbewithyou.com/tex/solving-oblique-triangles.png" width=75%>
+          <p>One possible way of solving $\triangle ABC$.</p>
+          <p>Find $\angle ABD$: $\angle ABD = 180^{\circ}-35^{\circ}-55^{\circ}-20^{\circ} = 70^{\circ}$ (Triangle Sum Theorem)</p>
+          <p>Find $\angle BAC$: $\angle BAC = 20^{\circ} + 50^{\circ} = 70^{\circ}$
+          <p>Find side $AD$: $\sin(70^{\circ})=\displaystyle\frac{AD}{12.5}$, $AD = 12.5 \times \sin(70^{\circ})$, $AD=11.7$ cm</p>
+          <p>Find side $BD$: $\sin(20^{\circ})=\displaystyle\frac{BD}{12.5}$, $BD = 12.5 \times \sin(20^{\circ})$, $BD=4.3$ cm</p>
+          <p>Find side $DC$: $\tan(35^{\circ})=\displaystyle\frac{11.7\dots}{DC}$, $DC=\displaystyle\frac{11.7\ldots}{\tan(35^{\circ})}$, $DC=16.8$ cm</p>
+          <p>Find side $b$: $11.7\ldots^2 + 16.7\ldots^2 = b^2$, $b=\sqrt{11.7\ldots^2 + 16.7\ldots^2}$, $b=20.5$ cm</p>
+          <p>Find side $a$: $BD + DC = 11.7\ldots + 16.7\ldots = 28.5$ cm</p>
+          <!--- End solution --->
+        </div>
+      </div>
+    </div>
+  </div>
+  {% endif %}

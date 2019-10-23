@@ -34,6 +34,69 @@
   donowdate: Tue Sep 24
   url: /global-co2-emissions/
 
+- class: 30-2
+  donowdate: Wed Sep 25
+  url: /amazon-deforestation/
+
+- class: 30-2
+  donowdate: Thu Sep 26
+  url: /global-temperature/
+
+- class: 30-2
+  donowdate: Fri Sep 27
+  url: /solving-exponential-equations/
+- class: 30-2
+  donowdate: Wed Oct 2
+  url: /exponent-laws/
+
+- class: 30-2
+  donowdate: Thu Oct 3
+  url: /simplify-polynomials/
+
+- class: 30-2
+  donowdate: Fri Oct 4
+  url: /non-permissible-values/
+
+- class: 30-2
+  donowdate: Mon Oct 7
+  url: /simplifying-rational-expression/
+
+- class: 30-2
+  donowdate: Tue Oct 8
+  url: /fractions-arithmetic/
+
+- class: 30-2
+  donowdate: Wed Oct 9
+  url: /simplify-products-and-quotients-of-rational-expressions/
+
+- class: 30-2
+  donowdate: Thu Oct 10
+  url: /simplify-sums-and-differences-of-rational-expressions/
+
+- class: 30-2
+  donowdate: Fri Oct 11
+  url: /solving-quadratic-equations/
+
+- class: 30-2
+  donowdate: Thu Oct 17
+  url: /strimko-puzzle/
+
+- class: 30-2
+  donowdate: Fri Oct 18
+  url: /magic-squares/
+
+- class: 30-2
+  donowdate: Mon Oct 21
+  url: /GHG-emissions-by-province-and-territories/
+
+- class: 30-2
+  donowdate: Tue Oct 22
+  url: /elements-of-sets/
+
+- class: 30-2
+  donowdate: Tue Oct 22
+  url: /drawing-venn-diagrams/
+
 - class: 20-2
   donowdate: Thu Sep 5
   url: /simplify-polynomials/
@@ -65,3 +128,47 @@
 - class: 20-2
   donowdate: Fri Sep 20
   url: /angles-in-triangles/
+
+- class: 20-2
+  donowdate: Th Sep 26
+  url: /solving-triangles/
+
+- class: 20-2
+  donowdate: Fri Sep 27
+  url: /solving-oblique-triangles/
+
+- class: 20-2
+  donowdate: Mon Sep 30
+  url: /solving-oblique-triangles-using-the-sine-law/
+
+- class: 20-2
+  donowdate: Tu Oct 1
+  url: /solving-oblique-triangles-using-the-cosine-law/
+
+- class: 20-2
+  donowdate: Wed Oct 2
+  url: /solving-pairs-of-triangles/
+
+- class: 20-2
+  donowdate: Mon Oct 7
+  url: /rate-of-change/
+
+- class: 20-2
+  donowdate: Tue Oct 8
+  url: /flying-vs-driving/
+
+- class: 20-2
+  donowdate: Wed Oct 9
+  url: /rate-of-sea-level-rise/
+
+- class: 20-2
+  donowdate: Thu Oct 10
+  url: /size-of-mildred-lake-settling-basin/
+
+- class: 20-2
+  donowdate: Tue Oct 15
+  url: /triangle-lsf-and-asf/
+
+- class: 20-2
+  donowdate: Wed Oct 16
+  url: /scale-factor-conversions/
