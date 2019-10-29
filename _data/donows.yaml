@@ -97,6 +97,10 @@
   donowdate: Tue Oct 22
   url: /drawing-venn-diagrams/
 
+- class: 30-2
+  donowdate: Tue Oct 29
+  url: /exponent-laws-2/
+
 - class: 20-2
   donowdate: Thu Sep 5
   url: /simplify-polynomials/
@@ -180,3 +184,7 @@
 - class: 20-2
   donowdate: Mon Oct 28
   url: /solving-radical-equations/
+
+- class: 20-2
+  donowdate: Tue Oct 29
+  url: /converting-radicals/
