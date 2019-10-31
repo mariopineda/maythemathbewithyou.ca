@@ -45,7 +45,6 @@
 - class: 30-2
   donowdate: Fri Sep 27
   url: /solving-exponential-equations/
-  
 - class: 30-2
   donowdate: Wed Oct 2
   url: /exponent-laws/
@@ -97,14 +96,6 @@
 - class: 30-2
   donowdate: Tue Oct 22
   url: /drawing-venn-diagrams/
-
-- class: 30-2
-  donowdate: Tue Oct 29
-  url: /exponent-laws-2/
-
-- class: 30-2
-  donowdate: Wed Oct 30
-  url: /evaluating-logarithms/
 
 - class: 20-2
   donowdate: Thu Sep 5
@@ -191,9 +182,5 @@
   url: /solving-radical-equations/
 
 - class: 20-2
-  donowdate: Tue Oct 29
-  url: /converting-radicals/
-
-- class: 20-2
-  donowdate: Wed Oct 30
-  url: /multiplying-and-dividing-radicals/
+  donowdate: Thu Oct 31
+  url: /adding-and-subtracting-radicals/
