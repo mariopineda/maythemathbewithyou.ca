@@ -101,6 +101,10 @@
   donowdate: Thu Oct 31
   url: /ocean-acification/
 
+- class: 30-2
+  donowdate: Fri Nov 1
+  url: /base-conversion/
+
 - class: 20-2
   donowdate: Thu Sep 5
   url: /simplify-polynomials/
@@ -196,3 +200,7 @@
 - class: 20-2
   donowdate: Thu Oct 31
   url: /adding-and-subtracting-radicals/
+
+- class: 20-2
+  donowdate: Fri Nov 1
+  url: /simplifying-radicals/
