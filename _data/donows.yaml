@@ -105,6 +105,10 @@
   donowdate: Fri Nov 1
   url: /base-conversion/
 
+- class: 30-2
+  donowdate: Mon Nov 4
+  url: /laws-of-logarithms/
+
 - class: 20-2
   donowdate: Thu Sep 5
   url: /simplify-polynomials/
