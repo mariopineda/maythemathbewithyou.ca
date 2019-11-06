@@ -113,6 +113,10 @@
   donowdate: Tue Nov 5
   url: /solving-exp-eqs-using-logarithms/
 
+- class: 30-2
+  donowdate: Nov Nov 6
+  url: /bpa-concentration/
+
 - class: 20-2
   donowdate: Thu Sep 5
   url: /simplify-polynomials/
@@ -215,4 +219,4 @@
 
 - class: 20-2
   donowdate: Fri Nov 1
-  url: /area-and-perimeter-of-polygon/  
+  url: /area-and-perimeter-of-polygon/
