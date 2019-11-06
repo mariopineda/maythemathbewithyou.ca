@@ -1,14 +1,57 @@
-\documentclass[tikz, border = 5pt]{standalone}
-\usetikzlibrary{quotes,angles}
-\usepackage{tkz-euclide}
-\usetkzobj{all}
-\begin{document}
-\begin{tikzpicture}
-  \draw[ultra thick]
-    (0,0) -- (10,0) -- (10,8) -- (3,8) -- (3,4) -- (0,4) -- cycle;
-    \node[scale=1.5] at (-.75,2) {$\sqrt{24}$};
-    \node[scale=1.5] at (5,-.5) {$7\sqrt{3}+\sqrt{6}$};
-    \node[scale=1.5] at (11.25,4) {$5\sqrt{6}-\sqrt{3}$};
-    \node[scale=1.5] at (6.5,8.5) {$\sqrt{147}$};
-\end{tikzpicture}
-\end{document}
+----
+layout: default
+permalink: 10-3/index.html
+title: Math 10-3
+---
+<h1>{{ page.title }}</h1>
+{% include alert-10-3.html %}
+
+<div class="accordion" id="accordionExample">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h5 class="mb-0">
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+          Course Outline
+        </button>
+      </h5>
+    </div>
+    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div class="card-body">
+        {% include course-outline-10-3.html %}
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Time table
+        </button>
+      </h5>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+      <div class="card-body">
+        {% include timetable.html %}
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Tutoring
+        </button>
+      </h5>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+      <div class="card-body">
+        {% include tutoring.html %}
+      </div>
+    </div>
+  </div>
+
+</div> <!-- Close accordion component -->
+
+{% include units-10-3.html %}
