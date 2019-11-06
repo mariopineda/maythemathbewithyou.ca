@@ -109,6 +109,10 @@
   donowdate: Mon Nov 4
   url: /laws-of-logarithms/
 
+- class: 30-2
+  donowdate: Tue Nov 5
+  url: /solving-exp-eqs-using-logarithms/
+
 - class: 20-2
   donowdate: Thu Sep 5
   url: /simplify-polynomials/
