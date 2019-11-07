@@ -20,7 +20,7 @@ published: true
   <li>Determine how many percent higher the CO2 concentration is today compared to the historical maximum of 300 ppm.</li>
 </ol>
 
-{% if false %}
+{% if true %}
   <div class="accordion" id="accordionExample">
     <div class="card">
       <div class="card-header" id="headingOne">
@@ -33,7 +33,17 @@ published: true
       <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
         <div class="card-body">
           <!--- Start solution --->
-
+          <h3>A.</h3>
+          \[
+            \begin{align}
+                C(x) & = 353(1.006)^{x-1990} \\
+                300  & = 353(1.006)^{x-1990} \\
+                \displaystyle\frac{300}{353} & = 1.006^{x-1990} \\
+                x & = \displaystyle\frac{\log \displaystyle\frac{300}{353}}{\log 1.006} + 1990 \\
+                x & = 1962
+            \end{align}
+          \]
+          <h3>B.</h3>
           <!--- End solution --->
         </div>
       </div>
