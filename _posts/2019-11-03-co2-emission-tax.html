@@ -1,0 +1,56 @@
+---
+layout: post
+title: CO2 emission tax
+category: Logarithms
+description:
+tags: Problem solving
+level: moderate
+grade: 12
+course: 30-2
+sourcetitle: Nordhaus. 1991. To Slow or Not to Slow, The Economics of the Greenhouse Effect. The Economic Journal 101(407), 920-937
+sourceurl: https://academic.oup.com/ej/article-abstract/101/407/920/5188437?redirectedFrom=PDF
+qrcode:
+video:
+published: true
+---
+<p>William Nordhaus is an American economist, best known for his work in economic modelling and climate change. Nordhaus recieved the 2018 Nobel Prize in Economic Sciences for developing a model describing the interplay between the economy and the climate.</p>
+
+<p>One action that government could take to reduce carbon emissions into the atmosphere is to levy a tax on fossil fuel. This tax would be based on the amount of carbon dioxide (CO2) emitted into the air when burning fossil fuels. The cost-benefit equation $\ln (1-O) = -0.0034-0.0053x$ models the approximate relationship between a tax of $x$ dollars per ton of carbon emissions and the corresponding percent reduction $P$ (in decimal form) </p>
+
+<ol type=A>
+  <li>Based on air bubbles trapped in mile-thick ice cores (and other paleoclimate evidence), we know that during the ice age cycles of the past 800000 years, carbon dioxide never exceeded 300 ppm. Following the Industrial Revolution (starting mid-1700s) the concentration of CO2 has rapidly risen above this historical maximum. Determine in what year the atmospheric CO2 concentration reached the historical maximum of 300 ppm. Round your answer to the nearest year.</li>
+  <li>Determine how many percent higher the CO2 concentration is today compared to the historical maximum of 300 ppm.</li>
+</ol>
+
+{% if false %}
+  <div class="accordion" id="accordionExample">
+    <div class="card">
+      <div class="card-header" id="headingOne">
+        <h5 class="mb-0">
+          <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+            <h2>Solution</h2>
+          </button>
+        </h5>
+      </div>
+      <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+        <div class="card-body">
+          <!--- Start solution --->
+          <h3>A.</h3>
+          \[
+            \begin{align}
+                C(x) & = 353(1.006)^{x-1990} \\
+                300  & = 353(1.006)^{x-1990} \\
+                \displaystyle\frac{300}{353} & = 1.006^{x-1990} \\
+                x & = \displaystyle\frac{\log (300 \div 353)}{\log 1.006} + 1990 \\
+                x & = 1962.8\ldots \approx 1963
+            \end{align}
+          \]
+          <p>The CO2 emission reached 300 ppm in 1963.</p>
+          <h3>B.</h3>
+          <p>Set $x=2019$, $C(x) = 353(1.006)^{2019-1990}$, $C(x)=419.87\ldots$. Calculate the percent increase, $\left( \displaystyle\frac{419.87\ldots}{300} -1 \right) \times 100 = 39.95\ldots \approx 40%$. The atmospheric CO2 concentration is 40% higher in 2019 than the historical maximum.</p>
+          <!--- End solution --->
+        </div>
+      </div>
+    </div>
+  </div>
+{% endif %}
