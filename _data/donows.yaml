@@ -121,6 +121,10 @@
   donowdate: Thu Nov 7
   url: /atmospheric-co2-concentration/
 
+- class: 30-2
+  donowdate: Fri Nov 8
+  url: /co2-emission-tax/
+
 - class: 20-2
   donowdate: Thu Sep 5
   url: /simplify-polynomials/
