@@ -229,7 +229,10 @@
   donowdate: Fri Nov 1
   url: /area-and-perimeter-of-polygon/
 
-
 - class: 20-2
   donowdate: Thu Nov 14
   url: /domain-and-range/
+
+- class: 20-2
+  donowdate: Fri Nov 15
+  url: /domain-and-range-2/
