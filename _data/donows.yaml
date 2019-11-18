@@ -125,6 +125,10 @@
   donowdate: Fri Nov 8
   url: /co2-emission-tax/
 
+- class: 30-2
+  donowdate: Mon Nov 18
+  url: /solving-quadratic-equations/
+
 - class: 20-2
   donowdate: Thu Sep 5
   url: /simplify-polynomials/
@@ -239,4 +243,4 @@
 
 - class: 20-2
   donowdate: Mon Nov 18
-  url: /function-notation/  
+  url: /function-notation/
