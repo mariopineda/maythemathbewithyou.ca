@@ -22,27 +22,29 @@ published: true
   <li>$h(-1)$</li>
 </ol>
 
-<div class="accordion" id="accordionExample">
-  <div class="card">
-    <div class="card-header" id="headingOne">
-      <h5 class="mb-0">
-        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-          <h2>Solution</h2>
-        </button>
-      </h5>
-    </div>
-    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
-      <div class="card-body">
-        <!--- Start solution --->
-        <ol type="A">
-          <li>$f(4)=2(4)+7 \Rightarrow f(4)=8+7 \Rightarrow f(4)=15$</li>
-          <li>$f(-3)=2(-3)+7 \Rightarrow f(-3)=-6+7 \Rightarrow f(-3)=1$</li>
-          <li>$g(2)=-3(2)^2+2-2 \Rightarrow g(2)=-3 \times 4 \Rightarrow g(2)=-12$</li>
-          <li>$g(x)=-6 \Rightarrow$ graph $g(x)=-3x^2+x-2$ on the graphing calculator as $y_1$, add second graph $y_2=-6$ and find the x-coordinates of the intersection points between the two graphs. Note that the graphs have two intersection points $x_1=-1$ and $x_2=1.\bar{3}$ which means that this expression has two possible answers.</li>
-          <li>$h(-1)=9.8(-1)^2-2(-1)+2 \Rightarrow h(-1)=14.8$</li>
-        </ol>
-        <!--- End solution --->
+{% if true %}
+  <div class="accordion" id="accordionExample">
+    <div class="card">
+      <div class="card-header" id="headingOne">
+        <h5 class="mb-0">
+          <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+            <h2>Solution</h2>
+          </button>
+        </h5>
+      </div>
+      <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+        <div class="card-body">
+          <!--- Start solution --->
+          <ol type="A">
+            <li>$f(4)=2(4)+7 \Rightarrow f(4)=8+7 \Rightarrow f(4)=15$</li>
+            <li>$f(-3)=2(-3)+7 \Rightarrow f(-3)=-6+7 \Rightarrow f(-3)=1$</li>
+            <li>$g(2)=-3(2)^2+2-2 \Rightarrow g(2)=-3 \times 4 \Rightarrow g(2)=-12$</li>
+            <li>$g(x)=-6 \Rightarrow$ graph $g(x)=-3x^2+x-2$ on the graphing calculator as $y_1$, add second graph $y_2=-6$ and find the x-coordinates of the intersection points between the two graphs. Note that the graphs have two intersection points $x_1=-1$ and $x_2=1.\bar{3}$ which means that this expression has two possible answers.</li>
+            <li>$h(-1)=9.8(-1)^2-2(-1)+2 \Rightarrow h(-1)=14.8$</li>
+          </ol>
+          <!--- End solution --->
+        </div>
       </div>
     </div>
   </div>
-</div>
+{% endif %}
