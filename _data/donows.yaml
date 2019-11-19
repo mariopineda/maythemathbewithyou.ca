@@ -129,6 +129,10 @@
   donowdate: Mon Nov 18
   url: /solving-quadratic-equations/
 
+- class: 30-2
+  donowdate: Tue Nov 19
+  url: /ford-mustang-mach-e/
+
 - class: 20-2
   donowdate: Thu Sep 5
   url: /simplify-polynomials/
@@ -244,3 +248,7 @@
 - class: 20-2
   donowdate: Mon Nov 18
   url: /function-notation/
+
+- class: 20-2
+  donowdate: Tue Nov 19
+  url: /characteristics-of-quadratic-functions/
