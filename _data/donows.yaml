@@ -141,6 +141,10 @@
   donowdate: Wed Nov 20
   url: /arranging-a-subset-of-objects/
 
+- class: 30-2
+  donowdate: Thu Nov 21
+  url: /bird-banding/
+
 - class: 20-2
   donowdate: Thu Sep 5
   url: /simplify-polynomials/
@@ -264,3 +268,7 @@
 - class: 20-2
   donowdate: Wed Nov 20
   url: /characteristics-of-quadratic-functions-2/
+
+- class: 20-2
+  donowdate: Thu Nov 21
+  url: /characteristics-of-quadratic-functions-3/
