@@ -145,6 +145,10 @@
   donowdate: Thu Nov 21
   url: /bird-banding/
 
+- class: 30-2
+  donowdate: Fri Nov 22
+  url: /climate-emergency/
+
 - class: 20-2
   donowdate: Thu Sep 5
   url: /simplify-polynomials/
