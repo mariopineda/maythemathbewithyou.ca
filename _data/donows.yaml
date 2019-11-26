@@ -153,6 +153,10 @@
   donowdate: Mon Nov 25
   url: /pathway-problems/
 
+- class: 30-2
+  donowdate: Tue Nov 26
+  url: /combinations/
+
 - class: 20-2
   donowdate: Thu Sep 5
   url: /simplify-polynomials/
@@ -283,4 +287,4 @@
 
 - class: 20-2
   donowdate: Tue Nov 26
-  url: /simplify-polynomials/  
+  url: /simplify-polynomials/

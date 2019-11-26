@@ -13,9 +13,47 @@ qrcode:
 video:
 published: true
 ---
-<p>As an athlete on a plant-based diet you nned to ensure an adequate protein intake. Your coach has instructed you that your post-workout meal has to contain 1 soy-based source of protein, 2 different legume-based proteins, and three different nut-based sources of protein. Determine the number of possible post-workout meals that can be made from 2 different soy-based dishes, 5 different legume dishes and 9 different nut varieties.</p>
+<div class="row">
+  <div class="col-sm-6">
+  <p>As an athlete on a plant-based diet you need to ensure an adequate protein intake. The following are some plant-based high-protein sources.</p>
+  <ul>
+    <li>Soy-based sources of protein:</li>
+    <ul>
+      <li>tempeh</li>
+      <li>tofu</li>
+    </ul>
+    <li>Legume-based sources of protein:</li>
+    <ul>
+      <li>dal</li>
+      <li>black beans</li>
+      <li>hummus</li>
+      <li>kidney beans</li>
+      <li>black lentils</li>
+    </ul>
+    <li>Nut/seed-bases sources of protein:</li>
+    <ul>
+      <li>walnuts</li>
+      <li>cashews</li>
+      <li>chia seeds</li>
+      <li>hemp hearts</li>
+      <li>flax seeds </li>
+      <li>sesame seeds</li>
+      <li>pistachios</li>
+      <li>pumpkin seeds</li>
+      <li>sunflower seeds</li>
+    </ul>
+  </ul>
+  </div>
+  <div class="col-sm-6">
+    <ol type="A">
+      <li>Your coach has instructed you that your post-workout meal has to contain 1 soy-based source of protein, 2 different legume-based proteins, and three different nut/seed-based sources of protein.</li>
+      <li>Nuts and seeds are great as a high-protein trail mix for snacking. How many different trails mixes can you prepare that includes at least 3 different nut/seed-based sources of protein?</li>
+      <li>How many different trails mixes can you prepare that includes at most 3 different nut/seed-based sources of protein?</li>
+    </ol>
+  </div>
+</div>
 
-{% if true %}
+{% if false %}
   <div class="accordion" id="accordionExample">
     <div class="card">
       <div class="card-header" id="headingOne">
@@ -28,7 +66,14 @@ published: true
       <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
         <div class="card-body">
           <!--- Start solution --->
-          <p>The order of the different dishes does not matter. $\binom{2}{1} \times \binom{5}{2} \times \binom{9}{3} = 1690$ different post-workout meals.</p>
+          <h3>A.</h3>
+          <p>The order of the different dishes does not matter. 1 soy-based source of protein and 2 different legume-based proteins and three different nut/seed-based sources of protein ('and' means multiplication). $\binom{2}{1} \times \binom{5}{2} \times \binom{9}{3} = 2 \times 10 \times 84 = 1680$ different post-workout meals.</p>
+
+          <h3>B.</h3>
+          There are 9 nut/seed-based protein sources and the trail mix can consist of 3, 4 or 5 of these ('or' means addition); $\binom{9}{3} + \binom{9}{4} + \binom{9}{5} = 84 + 126 + 126 = 336$ different trail mixes.
+
+          <h3>C.</h3>
+          The trail mix can consist of 1, 2 or 3 of these; $\binom{9}{1} + \binom{9}{2} + \binom{9}{3} = 9 + 36 + 84 = 129$ different trail mixes.
           <!--- End solution --->
         </div>
       </div>
