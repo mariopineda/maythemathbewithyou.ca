@@ -174,13 +174,13 @@
 
 - class: 10-3
   examdate: <strike>Mon Nov 25</strike> Tue Nov 26
-  unit: Unit 5 - Geometry (<a href="approximating-square-roots">square root practice</a>)
+  unit: Unit 5 - Geometry
   weight:
   url: NA
 
 - class: 10-3
   examdate: Fri Dec 13
-  unit: Unit 6 - Trigonometry
+  unit: Unit 6 - Trigonometry (<a href="approximating-square-roots">square root practice</a>)
   weight:
   url: NA
 
