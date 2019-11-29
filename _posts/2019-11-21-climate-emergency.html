@@ -19,21 +19,16 @@ published: true
 
 <p>Climate emergency is defined as ‘a situation in which urgent action is required to reduce or halt climate change and avoid potentially irreversible environmental damage resulting from it.’ This year, heightened public awareness of climate science and the myriad implications for communities around the world has generated enormous discussion of what the UN Secretary-General has called ‘the defining issue of our time’.</p>
 
-<p>Using the letters in the phrase <em>climate emergency</em>, determine the number of...  {% include modal.html content="Treat the space between the words as another letter. Some letters repeat. Treat the letter Y as a vowel." %}
+<p>Using the letters in the phrase <em>climate emergency</em>, determine the number of permutatations of...  {% include modal.html content="Treat the space between the words as another letter"%}
 <ol type="A">
-<<<<<<< HEAD
+  <li>... distinct two-word phrases, where each word has to be at least 4 letters long.</li>
   <li>... distinct two-word phrases where each word must start with two vowel, end with two consonant and where the first word has 7 letters and the second word has 9 letters.</li>
   <li>... distinct two-word phrases where each word must start with exactly two vowel, end with exactly two consonant and where the first word has 7 letters and the second word has 9 letters.</li>
   <li>... distinct two-word phrases with alternating consonants and vowels and where the first word has 7 letters and the second word has 9 letters.</li>
-=======
-  <li>... distinct six letter words that can be created.</li>
-  <li>... distinct two-word phrases where the first word has 7 letters and the second word has 9 letters and where each word starts with two consonants and end with two vowels.</li>
-  <li>... distinct two-word phrases where the first word has 7 letters and the second word has 9 letters and where each word starts with exactly two consonants and end with exactly two vowels.</li>
->>>>>>> 69f388d54c8081e3b9e0b4a1465bf2d105253260
 </ol>
 </p>
 
-{% if true %}
+{% if false %}
   <div class="accordion" id="accordionExample">
     <div class="card">
       <div class="card-header" id="headingOne">
@@ -46,14 +41,7 @@ published: true
       <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
         <div class="card-body">
           <!--- Start solution --->
-          <h3>A.</h3>
-          <p>The order of the letters matters, hence this is a permutation problem where we arrange a subset (6 letters) of the avaliable letters (16 letters, not including the space). The following letters repeat, "C" (2), "M" (2) and "E" (4) and we will need to divide out the repeats. $\displaystyle\frac{_{16}P_6}{2! \times 2! \times 4!} = 60060$ possible 6 letter words.</p>
-          <h3>B.</h3>
-          Consonants in red, vowels in green and the space between the two words in blue.
-          $\overbrace{\color{red}{9 \times 8} \times 8 \times 7 \times 6 \times \color{green}{7 \times 6}}^{\mbox{7 letter word}} \times \color{blue}{1} \times \overbrace{\color{red}{7 \times 6} \times 5 \times 4 \times 3 \times 2 \times 1 \times \color{green}{5 \times 4}}^{\mbox{9 letter word}} = 102419251200$ (a bit over 102 billion). Divide out the repeats: $\displaystyle\frac{102419251200}{2! \times 2! \times 4!} = 1066867200$ (a bit over 1 billion) possible two-word phrases.
-          <h3>C.</h3>
-          Consonants in red, vowels in green and the space between the two words in blue.
-          $\overbrace{\color{red}{9 \times 8} \times \color{green}{3} \times 4 \times \color{red}{5} \times \color{green}{7 \times 6}}^{\mbox{7 letter word}} \times \color{blue}{1} \times \overbrace{\color{red}{7 \times 6} \times \color{green}{2} \times 3 \times 2 \times 1 \times \color{red}{4} \times \color{green}{5 \times 4}}^{\mbox{9 letter word}} = 2438553600$. Divide out the repeats: $\displaystyle\frac{2438553600}{2! \times 2! \times 4!} = 25401600$ possible two-word phrases.
+
           <!--- End solution --->
         </div>
       </div>
