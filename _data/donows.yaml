@@ -161,6 +161,14 @@
   donowdate: Wed Nov 27
   url: /combinations-of-lines-triangles-and-diagonals/
 
+- class: 30-2
+  donowdate: Thu Nov 28 (1st)
+  url: /combinations-of-committees/
+
+- class: 30-2
+  donowdate: Thu Nov 28 (2nd)
+  url: /climate-emergency/
+
 - class: 20-2
   donowdate: Thu Sep 5
   url: /simplify-polynomials/
@@ -296,3 +304,7 @@
 - class: 20-2
   donowdate: Wed Nov 27
   url: /solving-quadratic-equations-by-factoring/
+
+- class: 20-2
+  donowdate: Thu Nov 28
+  url: /solving-quadratic-equations-by-factoring-2/
