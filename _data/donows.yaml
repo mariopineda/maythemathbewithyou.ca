@@ -170,8 +170,12 @@
   url: /climate-emergency/
 
 - class: 30-2
-  donowdate: Tue Dec 4
+  donowdate: Wed Dec 4
   url: /determining-sample-space/
+
+- class: 30-2
+  donowdate: Thu Dec 5
+  url: /experimental-probability/
 
 - class: 20-2
   donowdate: Thu Sep 5
