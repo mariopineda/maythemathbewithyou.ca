@@ -193,6 +193,10 @@
   donowdate: Wed Dec 11
   url: /product-of-dice/
 
+- class: 30-2
+  donowdate: Thu Dec 12
+  url: /odds-of-staying-below-1.5C/
+
 - class: 20-2
   donowdate: Thu Sep 5
   url: /simplify-polynomials/
