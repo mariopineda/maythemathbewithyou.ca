@@ -197,6 +197,10 @@
   donowdate: Thu Dec 12
   url: /odds-of-staying-below-1.5C/
 
+- class: 30-2
+  donowdate: Fri Dec 13
+  url: /mutually-exclusive-events/
+
 - class: 20-2
   donowdate: Thu Sep 5
   url: /simplify-polynomials/
